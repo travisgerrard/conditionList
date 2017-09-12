@@ -12,17 +12,35 @@ const DeleteButton = styled.button`
   border: 2px solid red;
 `;
 
+const AddButton = styled.button`
+  border-radius: 3px;
+  padding: 0.25em 1em;
+  margin: 1em;
+  background: green;
+  color: white;
+  border: 2px solid gree;
+`;
+
+const ListTitle = styled.h1`
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 15px;
+`;
+
 const ListItem = styled.p`
   cursor: pointer;
 
   font-family: Georgia;
   font-size: 20px;
+  padding-bottom: 2.5px;
   font-weight: ${props => props.withData ? 'bold' : 'normal'};
 `;
 
 const ListWrapper = styled.section`
-  padding-left: 50px;
-  background: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: White;
 `;
 
 const InputWrapper = styled.section`
@@ -45,6 +63,7 @@ const SelectedInput = styled.input`
   border-radius: 3px;
   font-family: Georgia;
   font-size: 18px;
+  border: 2px solid Gainsboro;
 
 `;
 
@@ -64,6 +83,7 @@ class App extends Component {
   state = {
     diseaseData: localStorage.myData ? JSON.parse(localStorage.myData) : myData,
     addConditionInputBox: '',
+    searchInputBox: '',
   }
 
   headerTapped = (index) => {
@@ -99,7 +119,7 @@ class App extends Component {
   };
 
   handleChangeWhatWasLearned = (element, e) => {
-    console.log(e.target.name);
+    //console.log(e.target.name);
     const index = element.id - 1;
     const diseaseData = this.state.diseaseData;
     diseaseData[index].whatWasLearned = e.target.value;
@@ -111,8 +131,8 @@ class App extends Component {
     //eslint-disable-next-line
     if (confirm(`Are you sure you want to delete "${element.name}"`) == true) {
       const index = element.id - 1;
-      console.log(index);
-      console.log(element);
+      // console.log(index);
+      // console.log(element);
       const diseaseData = this.state.diseaseData;
       diseaseData[index].hidden = true;
       this.setState({ diseaseData });
@@ -151,6 +171,12 @@ class App extends Component {
       [e.target.name]: e.target.value
     });
   }
+
+  handleSearchBoxChange = (e) => {
+    this.setState({
+      [e.target.name]: e.target.value
+    });
+  };
 
   render() {
     const inputData = (element) => (
@@ -195,29 +221,40 @@ class App extends Component {
           </ListWrapper>
         </div>
     )
-
-    // const searchBox = () => (
-    //   <div>
-    //     <label>Search For Term</label>
-    //       <input
-    //         name="searchBox"
-    //         id="searchBox"
-    //         placeholder="Type search term here"
-    //         onChange={this.handleChangeSearchBox.bind(this, this.props.diseaseData)}
-    //       />
-    //   </div>
-    // )
+    var searchNames = this.state.diseaseData.filter(x => x.name.includes(this.state.searchInputBox)).map((element) =>
+        <div key={element.id}>
+          <ListWrapper>
+          {element.hidden ? "" :
+            element.preceptor === "" ?
+              <ListItem onClick={this.headerTapped.bind(this, element.id)}>{element.name}</ListItem> :
+                <ListItem withData onClick={this.headerTapped.bind(this, element.id)}>{element.name}</ListItem> }
+          {element.selected && !element.hidden ? inputData(element) : "" }
+          </ListWrapper>
+        </div>
+    )
 
     const addCondition = () => (
       <div>
-      <input
+      <SelectedInput
         name="addConditionInputBox"
         id="addCondition"
         value={this.state.addConditionInputBox}
         placeholder="Condition"
         onChange={this.handleAddConditionBoxChange}
       />
-    <button onClick={this.handleClickAddConditionBox}>Add</button>
+    <AddButton onClick={this.handleClickAddConditionBox}>Add</AddButton>
+    </div>
+    )
+
+    const searchBox = () => (
+      <div>
+      <SelectedInput
+        name="searchInputBox"
+        id="searchInputBox"
+        value={this.state.searchInputBox}
+        placeholder="Search term"
+        onChange={this.handleSearchBoxChange}
+      />
     </div>
     )
 
@@ -226,8 +263,9 @@ class App extends Component {
     return (
       <div>
         <br/>
-
-         {diseaseNames}
+        <ListTitle>Heme-Onc</ListTitle>
+        {searchBox()}
+         {this.state.searchInputBox === '' ? diseaseNames : searchNames}
          <br/>
          {addCondition()}
       </div>
