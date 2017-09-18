@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import styled from 'styled-components';
-const myData = require('./conditionJSON/HemeOnc.json');
+import { connect } from 'react-redux';
+import { fetchDiseases, updateDisease, saveDisease } from './actions/diseaseActions';
+
+//const myData = require('./conditionJSON/HemeOnc.json');
 
 const DeleteButton = styled.button`
   border-radius: 3px;
@@ -81,62 +84,41 @@ const SelectedTextArea = styled.textarea`
 
 class App extends Component {
   state = {
-    diseaseData: localStorage.myData ? JSON.parse(localStorage.myData) : myData,
+    diseaseData: this.props.diseases,//localStorage.myData ? JSON.parse(localStorage.myData) : myData,
     addConditionInputBox: '',
     searchInputBox: '',
   }
 
-  headerTapped = (index) => {
-    index = index - 1;
-    const diseaseData = this.state.diseaseData;
-    //diseaseData[index].selected ? true : false;
-    if(diseaseData[index].selected) {
-      diseaseData[index].selected = false;
-    } else {
-      diseaseData[index].selected = true;
-    }
-    this.setState({ diseaseData });
-    //localStorage.setItem('myData', this.state.diseaseData);
-    localStorage.myData = JSON.stringify(this.state.diseaseData); //Using localStorage to persist data.
+  // Runs at initial loading of patient info. uses action to call server for data
+  componentDidMount () {
+    this.props.fetchDiseases();
+  }
+
+  headerTapped = (element) => {
+    element.selected ? element.selected = false : element.selected = true;
+    this.props.updateDisease(element);
   }
 
   handleChangePreceptor = (element, e) => {
-    console.log(e.target.name);
-    const index = element.id - 1;
-    const diseaseData = this.state.diseaseData;
-    diseaseData[index].preceptor = e.target.value;
-    this.setState({ diseaseData });
-    localStorage.myData = JSON.stringify(this.state.diseaseData); //Using localStorage to persist data.
+    element.preceptor = e.target.value;
+    this.props.updateDisease(element);
   };
 
   handleChangeDate = (element, e) => {
-    console.log(e.target.name);
-    const index = element.id - 1;
-    const diseaseData = this.state.diseaseData;
-    diseaseData[index].date = e.target.value;
-    this.setState({ diseaseData });
-    localStorage.myData = JSON.stringify(this.state.diseaseData); //Using localStorage to persist data.
+    element.date = e.target.value;
+    this.props.updateDisease(element);
   };
 
   handleChangeWhatWasLearned = (element, e) => {
-    //console.log(e.target.name);
-    const index = element.id - 1;
-    const diseaseData = this.state.diseaseData;
-    diseaseData[index].whatWasLearned = e.target.value;
-    this.setState({ diseaseData });
-    localStorage.myData = JSON.stringify(this.state.diseaseData); //Using localStorage to persist data.
+    element.whatWasLearned = e.target.value;
+    this.props.updateDisease(element);
   }
 
   deleteDisease = (element, e) => {
     //eslint-disable-next-line
     if (confirm(`Are you sure you want to delete "${element.name}"`) == true) {
-      const index = element.id - 1;
-      // console.log(index);
-      // console.log(element);
-      const diseaseData = this.state.diseaseData;
-      diseaseData[index].hidden = true;
-      this.setState({ diseaseData });
-      localStorage.myData = JSON.stringify(this.state.diseaseData); //Using localStorage to persist data.
+      element.hidden = true;
+      this.props.updateDisease(element);
     }
   }
 
@@ -146,9 +128,8 @@ class App extends Component {
 
   handleClickAddConditionBox = (e) => {
     if (this.state.addConditionInputBox === "") return;
-    const diseaseData = this.state.diseaseData;
+    const diseaseData = this.props.diseases;
     const lastElementInArray = diseaseData[diseaseData.length - 1];
-    console.log(lastElementInArray);
     var newDisease = {
       id: lastElementInArray.id + 1,
       Catagory: lastElementInArray.Catagory,
@@ -157,10 +138,11 @@ class App extends Component {
       date: "",
       selected: true
     };
-    diseaseData.push(newDisease);
-    this.setState({ diseaseData });
-    localStorage.myData = JSON.stringify(this.state.diseaseData); //Using localStorage to persist data.
-
+    this.props.saveDisease(newDisease);
+    // diseaseData.push(newDisease);
+    // this.setState({ diseaseData });
+    // localStorage.myData = JSON.stringify(this.state.diseaseData); //Using localStorage to persist data.
+    //
     this.setState({
       addConditionInputBox: ""
     });
@@ -210,28 +192,29 @@ class App extends Component {
       </InputWrapper>
       </div>
     );
-    var diseaseNames = this.state.diseaseData.map((element) =>
+    var diseaseNames = this.props.diseases.length ? this.props.diseases.map((element) =>
         <div key={element.id}>
           <ListWrapper>
           {element.hidden ? "" :
             element.preceptor === "" ?
-              <ListItem onClick={this.headerTapped.bind(this, element.id)}>{element.name}</ListItem> :
-                <ListItem withData onClick={this.headerTapped.bind(this, element.id)}>{element.name}</ListItem> }
+              <ListItem onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem> :
+                <ListItem withData onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem> }
           {element.selected && !element.hidden ? inputData(element) : "" }
           </ListWrapper>
         </div>
-    )
-    var searchNames = this.state.diseaseData.filter(x => x.name.includes(this.state.searchInputBox)).map((element) =>
+      ) : <div></div>
+
+    var searchNames = this.props.diseases.length ? this.props.diseases.filter(x => x.name.toLowerCase().includes(this.state.searchInputBox.toLowerCase())).map((element) =>
         <div key={element.id}>
           <ListWrapper>
           {element.hidden ? "" :
             element.preceptor === "" ?
-              <ListItem onClick={this.headerTapped.bind(this, element.id)}>{element.name}</ListItem> :
-                <ListItem withData onClick={this.headerTapped.bind(this, element.id)}>{element.name}</ListItem> }
+              <ListItem onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem> :
+                <ListItem withData onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem> }
           {element.selected && !element.hidden ? inputData(element) : "" }
           </ListWrapper>
         </div>
-    )
+    ) : <div></div>
 
     const addCondition = () => (
       <div>
@@ -273,4 +256,10 @@ class App extends Component {
   }
 }
 
-export default App;
+function mapStateToProps(state) {
+  return {
+    diseases: state.diseases
+  };
+}
+
+export default connect(mapStateToProps, { fetchDiseases, updateDisease, saveDisease })(App);
