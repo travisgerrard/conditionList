@@ -1,8 +1,10 @@
 import express from 'express';
 const router = new express.Router();
 const Condition = require('mongoose').model('Condition');
+import authenticate from '../middleware/authenticate';
 
-router.get('/', (req, res) => {
+
+router.get('/', authenticate, (req, res) => {
   Condition.find().exec((err, docs) => {
       if (err) {
         console.error(err);
@@ -12,7 +14,7 @@ router.get('/', (req, res) => {
     });
 });
 
-router.post('/', (req, res) => {
+router.post('/', authenticate, (req, res) => {
   var disease = Condition(req.body);
   disease.save((err, docs) => {
     if (err) {
@@ -23,11 +25,9 @@ router.post('/', (req, res) => {
   });
 });
 
-router.post('/:_id', (req, res) => {
+router.post('/:_id', authenticate, (req, res) => {
   var id = req.params._id;
-  console.log(req.body);
   var disease = req.body;
-  console.log(disease);
   Condition.findByIdAndUpdate(id, disease, {new: true}, function(err, docs) {
     if (err) {
       console.error(err);

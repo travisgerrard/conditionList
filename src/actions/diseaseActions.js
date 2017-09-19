@@ -1,4 +1,5 @@
 import { SET_DISEASES, UPDATE_DISEASE, ADD_DISEASE } from './types';
+import { LOCAL_HOST } from './types';
 
 function handleResponse(response) {
   if (response.ok) {
@@ -34,7 +35,7 @@ export function addDisease(disease) {
 export function updateDisease(data) {
   console.log(data);
   return dispatch => {
-    fetch(`http://localhost:8080/api/diseases/${data._id}`, {
+    fetch(`${LOCAL_HOST}/api/diseases/${data._id}`, {
       method: 'post',
       body: JSON.stringify(data),
       headers: {
@@ -47,7 +48,7 @@ export function updateDisease(data) {
 
 export function fetchDiseases() {
   return dispatch => {
-    fetch(`http://localhost:8080/api/diseases`, {
+    fetch(`${LOCAL_HOST}/api/diseases`, {
       method: 'get',
       headers: {
         "Content-type": "application/json"
@@ -62,7 +63,7 @@ export function fetchDiseases() {
 
 export function saveDisease(data) {
   return dispatch => {
-    fetch('http://localhost:8080/api/diseases', {
+    fetch('${LOCAL_HOST}/api/diseases', {
       method: 'post',
       body: JSON.stringify(data),
       headers: {

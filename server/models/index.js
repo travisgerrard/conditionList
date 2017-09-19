@@ -10,5 +10,6 @@ module.exports.connect = (uri) => {
   });
 
   // load modules
+  require('./user');
   require('./condition');
 };

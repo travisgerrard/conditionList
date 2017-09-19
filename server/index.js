@@ -15,6 +15,13 @@ app.use(function(req, res, next) {
   next();
 });
 
+
+const users = require('./routes/users');
+app.use('/api/users', users);
+
+const auth = require('./routes/auth');
+app.use('/api/auth', auth);
+
 const diseases = require('./routes/diseases');
 app.use('/api/diseases', diseases);
 
