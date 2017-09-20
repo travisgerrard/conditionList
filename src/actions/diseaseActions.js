@@ -1,15 +1,8 @@
 import { SET_DISEASES, UPDATE_DISEASE, ADD_DISEASE } from './types';
 import { LOCAL_HOST } from './types';
+import { setHeaders, handleResponse } from '../utils/setHeaders';
 
-function handleResponse(response) {
-  if (response.ok) {
-    return response.json();
-  } else {
-    let error = new Error(response.statusText);
-    error.response = response;
-    throw error;
-  }
-}
+
 
 export function diseaseUpdate(disease) {
   return {
@@ -38,9 +31,9 @@ export function updateDisease(data) {
     fetch(`${LOCAL_HOST}/api/diseases/${data._id}`, {
       method: 'post',
       body: JSON.stringify(data),
-      headers: {
+      headers: setHeaders({
         "Content-type": "application/json"
-      }
+      })
     }).then(handleResponse)
       .then(data => dispatch(diseaseUpdate(data)))
   }
@@ -50,9 +43,9 @@ export function fetchDiseases() {
   return dispatch => {
     fetch(`${LOCAL_HOST}/api/diseases`, {
       method: 'get',
-      headers: {
+      headers: setHeaders({
         "Content-type": "application/json"
-      }
+      })
     }).then(handleResponse)
       .then(data => {
         //console.log(`The data is ${data}`);
@@ -63,12 +56,12 @@ export function fetchDiseases() {
 
 export function saveDisease(data) {
   return dispatch => {
-    fetch('${LOCAL_HOST}/api/diseases', {
+    fetch(`${LOCAL_HOST}/api/diseases`, {
       method: 'post',
       body: JSON.stringify(data),
-      headers: {
+      headers: setHeaders({
         "Content-type": "application/json"
-      }
+      })
     }).then(handleResponse)
       .then(data => dispatch(addDisease(data)));
   }

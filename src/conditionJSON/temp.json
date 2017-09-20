@@ -1,1 +1,1149 @@
-[{"id":1,"catagory":"HemeOnc","name":"Lung cancer","selected":false,"preceptor":"Wilfong","date":"09/08/2017","whatWasLearned":"Discussed staging and treatment of lung cancer.\n\nMost common cause of cancer death.","hidden":false},{"id":2,"catagory":"HemeOnc","name":"Breast cancer","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":3,"catagory":"HemeOnc","name":"Neoplasms of the head and neck","selected":false,"preceptor":"O'Malley","date":"09/12/2017","whatWasLearned":"Rad-onc for the gentleman I saw\n","hidden":false},{"id":4,"catagory":"HemeOnc","name":"Thyroid nodules and thyroid cancer","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":5,"catagory":"HemeOnc","name":"Neoplasms of the head and neck (except thyroid cancer)","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":6,"catagory":"HemeOnc","name":"Gastrointestinal or hepatic cancer. .'","selected":false,"preceptor":"Picozzi","date":"9/11/2017","whatWasLearned":"Duodenal cancer","hidden":false},{"id":7,"catagory":"HemeOnc","name":"Esophageal carcinoma","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":8,"catagory":"HemeOnc","name":"Stomach cancer","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":9,"catagory":"HemeOnc","name":"Colorectal cancer","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":10,"catagory":"HemeOnc","name":"Pancreatic: carcinoma (except pancreatic endocrine tumors)","selected":false,"preceptor":"Picozzi","date":"9/11/2017","whatWasLearned":"Many cases","hidden":false},{"id":11,"catagory":"HemeOnc","name":"Hepatocellular carcinoma","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":12,"catagory":"HemeOnc","name":"Urologic cancer","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":13,"catagory":"HemeOnc","name":"Renal cell carcinoma","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":14,"catagory":"HemeOnc","name":"Bladder carcinoma","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":15,"catagory":"HemeOnc","name":"Prostate carcinoma","selected":false,"preceptor":"Wilfong","date":"09/08/2017","whatWasLearned":"","hidden":false},{"id":16,"catagory":"HemeOnc","name":"Testicular carcinoma/tumors","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":17,"catagory":"HemeOnc","name":"Gynecologic cancer","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":18,"catagory":"HemeOnc","name":"Ovarian cancer","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":19,"catagory":"HemeOnc","name":"Endometrial cancer","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":20,"catagory":"HemeOnc","name":"Cervical cancer","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":21,"catagory":"HemeOnc","name":"CNS tumors","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":22,"catagory":"HemeOnc","name":"Brain tumors","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":23,"catagory":"HemeOnc","name":"Spinal cord tumors and compression","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":24,"catagory":"HemeOnc","name":"Carcinomatous meningitis","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":25,"catagory":"HemeOnc","name":"Skin cancer","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":26,"catagory":"HemeOnc","name":"Squamous cell carcinoma of the skin","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":27,"catagory":"HemeOnc","name":"Basal cell carcifloma of the skin","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":28,"catagory":"HemeOnc","name":"Melanoma and nevi","selected":false,"preceptor":"Aboulafia","date":"09/07/2017","whatWasLearned":"Metastatic melanoma. C/b ICH now doing quite a bit better. Treatment with PD-1 inhibitor","hidden":false},{"id":29,"catagory":"HemeOnc","name":"Mycosis fungoides","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":30,"catagory":"HemeOnc","name":"Hematologic malignancies","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":31,"catagory":"HemeOnc","name":"Chronic leukemias","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":32,"catagory":"HemeOnc","name":"Chronic myelogenous leukemia","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":33,"catagory":"HemeOnc","name":"Chronic lymphocytic leukemia","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":34,"catagory":"HemeOnc","name":"Other chronic leukemia (hairy cell/ etc.)","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":35,"catagory":"HemeOnc","name":"Acute leukemia","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":36,"catagory":"HemeOnc","name":"Acute lymphocytic leukemia","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":37,"catagory":"HemeOnc","name":"Acute myelogenous leukemia","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":38,"catagory":"HemeOnc","name":"Non-Hodgkin's lymphoma","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":39,"catagory":"HemeOnc","name":"Hodgkin's disease","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":40,"catagory":"HemeOnc","name":"Plasma cell disorder","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":41,"catagory":"HemeOnc","name":"Multiple myeloma","selected":false,"preceptor":"Picozzi","date":"09/11/2017","whatWasLearned":"...","hidden":false},{"id":42,"catagory":"HemeOnc","name":"Benign monoclonal gammopathy","selected":false,"preceptor":"Wilfong","date":"09/01/2017","whatWasLearned":"MGUS is monoclonal band  < 3.\n1% risk of progressing to multiple myeloma per year\n\nAlso think about CRAB\nC: Calcium\nR: Renal function\nA: Anemia\nB: Bone lesions","hidden":false},{"id":43,"catagory":"HemeOnc","name":"Waldenstrom:s macroglobulinemia","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":44,"catagory":"HemeOnc","name":"Amyloidosis (AL and other variants)","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":45,"catagory":"HemeOnc","name":"Amyloidosis and the heart (also in cardiovascular)","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":46,"catagory":"HemeOnc","name":"Cancer prevention and screening","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":47,"catagory":"HemeOnc","name":"Smoking cessation","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":48,"catagory":"HemeOnc","name":"Screening for breast cancer","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":49,"catagory":"HemeOnc","name":"Screening for prostate cancer","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":50,"catagory":"HemeOnc","name":"Colon polyposis syndrome","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":51,"catagory":"HemeOnc","name":"Screening for colorectal cancer (not polyposis syndromes)","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":52,"catagory":"HemeOnc","name":"Screening for cervical cancer and other Pap smear","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":53,"catagory":"HemeOnc","name":"Screening for other cancer","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":54,"catagory":"HemeOnc","name":"Diet and cancer","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":55,"catagory":"HemeOnc","name":"Management of malignant pain","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":56,"catagory":"HemeOnc","name":"Cardiac tumors","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":57,"catagory":"HemeOnc","name":"Bone tumors","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":58,"catagory":"HemeOnc","name":"Soft tissue cancer","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":59,"catagory":"HemeOnc","name":"Assorted endocrine tumors and endocrine manifestations of tumors","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":60,"catagory":"HemeOnc","name":"Insulinoma","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":61,"catagory":"HemeOnc","name":"VIP-secreting tumors (dassify a;> GC.lstroenteroiogy) ~","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":62,"catagory":"HemeOnc","name":"Zollinger Ellison syndrome (gastrinoma/ classify as Gastroenterology)","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":63,"catagory":"HemeOnc","name":"Glucagon-Secreting tumors .","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":64,"catagory":"HemeOnc","name":"Carcinoid syndrome","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":65,"catagory":"HemeOnc","name":"Malignancy-associated hypercalcemia","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":66,"catagory":"HemeOnc","name":"Ectopic ACTH from tumor","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":67,"catagory":"HemeOnc","name":"SIADH from tumor","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":68,"catagory":"HemeOnc","name":"Multiple endocrine neoplasia","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":69,"catagory":"HemeOnc","name":"Oncologic complications of HIV infection","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":70,"catagory":"HemeOnc","name":"Oncologic emergencies","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":71,"catagory":"HemeOnc","name":"Superior vena cava syndrome","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":72,"catagory":"HemeOnc","name":"Fever and neutropenia","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":73,"catagory":"HemeOnc","name":"Brain tumors","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":74,"catagory":"HemeOnc","name":"Spinal cord tumors and compression","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":75,"catagory":"HemeOnc","name":"Cardiac tamponade from neoplastic pericarditis","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":76,"catagory":"HemeOnc","name":"Tumor lysis syndrome","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":77,"catagory":"HemeOnc","name":"Untoward effects of cancer chemotherapy","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":78,"catagory":"HemeOnc","name":"Carcinoma of unknown primary","selected":false,"preceptor":"","date":"","whatWasLearned":"","hidden":false},{"id":79,"name":"Easy Bruising","preceptor":"Wilfong","date":"09/08/2017","selected":true,"whatWasLearned":"Bruising is primary or secondary. \nPrimary is most likely related to platelet dysfunction.","hidden":true},{"id":80,"name":"Test","preceptor":"test","date":"","selected":true,"hidden":true},{"id":81,"name":"warm autoimmune hemolytic anemia","preceptor":"","date":"","selected":true,"hidden":true},{"id":82,"name":"Warm autoimmune hemolytic anemia","preceptor":"O'Malley","date":"09/05/2017","selected":false,"whatWasLearned":""},{"id":83,"name":"Easy bruising","preceptor":"Wilfong","date":"09/08/2017","selected":false,"whatWasLearned":"Primary vs secondary bleeding"},{"id":84,"name":"Duodenal adenocarcinoma","preceptor":"Picozzi","date":"09/11/2017","selected":false},{"id":85,"name":"High risk breast findings","preceptor":"O' Malley","date":"09/05/2017","selected":false,"whatWasLearned":"Options for risk reduction ranging from alternating breast MRI and mammography every 6-months on one end of the spectrum, to prophylactic bilateral mastectomy on the other end of the spectrum, which I am not recommending.  We also discussed the use of endocrine therapy for secondary prevention, which is somewhere in the middle.  I reviewed the data from various clinical trials including the Breast Cancer Prevention Trial (BCPT) that was conducted in the 1990s, followed by the Study of Tamoxifen and Raloxifene (STAR).  The BCPT was a large randomized controlled trial of over 20,000 women with an increased lifetime risk of breast cancer who were randomized to either receive tamoxifen 20 mg p.o. daily or placebo.  The women who took tamoxifen had a 50% risk reduction in developing invasive cancers which led to the approval of this drug for this reason.  I also reviewed the STAR data indicating that raloxifene can lead to a similar risk reduction in postmenopausal women, with a lesser risk of endometrial cancer and venous thromboembolic events than tamoxifen, and can actually improve bone density.  I described the risks, benefits and side effects of tamoxifen with her today including the risk of hot flashes and other vasomotor symptoms, vaginal dryness, decreased libido, mood changes including depression, increased risk of endometrial cancer and venous thromboembolic events (approximately 4 in 1000 women)"},{"id":86,"name":"test","preceptor":"","date":"","selected":true,"hidden":true},{"id":87,"name":"Mantle Cell Lymphoma","preceptor":"O'Malley","date":"09/12/2017","selected":false,"whatWasLearned":"Cyclin D1 is gene marker.\nVery agressive."}]
+/* 1 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52760"),
+    "id" : 1,
+    "catagory" : "HemeOnc",
+    "name" : "Lung cancer",
+    "selected" : false,
+    "preceptor" : "Wilfong",
+    "date" : "09/08/2017",
+    "whatWasLearned" : "Discussed staging and treatment of lung cancer.\n\nMost common cause of cancer death.",
+    "hidden" : false
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52761"),
+    "id" : 2,
+    "catagory" : "HemeOnc",
+    "name" : "Breast cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52762"),
+    "id" : 3,
+    "catagory" : "HemeOnc",
+    "name" : "Neoplasms of the head and neck",
+    "selected" : false,
+    "preceptor" : "O'Malley",
+    "date" : "09/12/2017",
+    "whatWasLearned" : "Rad-onc for the gentleman I saw\n",
+    "hidden" : false
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52763"),
+    "id" : 4,
+    "catagory" : "HemeOnc",
+    "name" : "Thyroid nodules and thyroid cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52764"),
+    "id" : 5,
+    "catagory" : "HemeOnc",
+    "name" : "Neoplasms of the head and neck (except thyroid cancer)",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52765"),
+    "id" : 6,
+    "catagory" : "HemeOnc",
+    "name" : "Gastrointestinal or hepatic cancer. .'",
+    "selected" : false,
+    "preceptor" : "Picozzi",
+    "date" : "9/11/2017",
+    "whatWasLearned" : "Duodenal cancer",
+    "hidden" : false
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52766"),
+    "id" : 7,
+    "catagory" : "HemeOnc",
+    "name" : "Esophageal carcinoma",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52767"),
+    "id" : 8,
+    "catagory" : "HemeOnc",
+    "name" : "Stomach cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52768"),
+    "id" : 9,
+    "catagory" : "HemeOnc",
+    "name" : "Colorectal cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52769"),
+    "id" : 10,
+    "catagory" : "HemeOnc",
+    "name" : "Pancreatic: carcinoma (except pancreatic endocrine tumors)",
+    "selected" : false,
+    "preceptor" : "Picozzi",
+    "date" : "9/11/2017",
+    "whatWasLearned" : "Many cases",
+    "hidden" : false
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5276a"),
+    "id" : 11,
+    "catagory" : "HemeOnc",
+    "name" : "Hepatocellular carcinoma",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5276b"),
+    "id" : 12,
+    "catagory" : "HemeOnc",
+    "name" : "Urologic cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5276c"),
+    "id" : 13,
+    "catagory" : "HemeOnc",
+    "name" : "Renal cell carcinoma",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5276d"),
+    "id" : 14,
+    "catagory" : "HemeOnc",
+    "name" : "Bladder carcinoma",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5276e"),
+    "id" : 15,
+    "catagory" : "HemeOnc",
+    "name" : "Prostate carcinoma",
+    "selected" : false,
+    "preceptor" : "Wilfong",
+    "date" : "09/08/2017",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5276f"),
+    "id" : 16,
+    "catagory" : "HemeOnc",
+    "name" : "Testicular carcinoma/tumors",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52770"),
+    "id" : 17,
+    "catagory" : "HemeOnc",
+    "name" : "Gynecologic cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52771"),
+    "id" : 18,
+    "catagory" : "HemeOnc",
+    "name" : "Ovarian cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52772"),
+    "id" : 19,
+    "catagory" : "HemeOnc",
+    "name" : "Endometrial cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52773"),
+    "id" : 20,
+    "catagory" : "HemeOnc",
+    "name" : "Cervical cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52774"),
+    "id" : 21,
+    "catagory" : "HemeOnc",
+    "name" : "CNS tumors",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52775"),
+    "id" : 22,
+    "catagory" : "HemeOnc",
+    "name" : "Brain tumors",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52776"),
+    "id" : 23,
+    "catagory" : "HemeOnc",
+    "name" : "Spinal cord tumors and compression",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52777"),
+    "id" : 24,
+    "catagory" : "HemeOnc",
+    "name" : "Carcinomatous meningitis",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52778"),
+    "id" : 25,
+    "catagory" : "HemeOnc",
+    "name" : "Skin cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52779"),
+    "id" : 26,
+    "catagory" : "HemeOnc",
+    "name" : "Squamous cell carcinoma of the skin",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5277a"),
+    "id" : 27,
+    "catagory" : "HemeOnc",
+    "name" : "Basal cell carcifloma of the skin",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5277b"),
+    "id" : 28,
+    "catagory" : "HemeOnc",
+    "name" : "Melanoma and nevi",
+    "selected" : false,
+    "preceptor" : "Aboulafia",
+    "date" : "09/07/2017",
+    "whatWasLearned" : "Metastatic melanoma. C/b ICH now doing quite a bit better. Treatment with PD-1 inhibitor",
+    "hidden" : false
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5277c"),
+    "id" : 29,
+    "catagory" : "HemeOnc",
+    "name" : "Mycosis fungoides",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5277d"),
+    "id" : 30,
+    "catagory" : "HemeOnc",
+    "name" : "Hematologic malignancies",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5277e"),
+    "id" : 31,
+    "catagory" : "HemeOnc",
+    "name" : "Chronic leukemias",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5277f"),
+    "id" : 32,
+    "catagory" : "HemeOnc",
+    "name" : "Chronic myelogenous leukemia",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52780"),
+    "id" : 33,
+    "catagory" : "HemeOnc",
+    "name" : "Chronic lymphocytic leukemia",
+    "selected" : false,
+    "preceptor" : "Picozzi",
+    "date" : "09/18/2017",
+    "whatWasLearned" : "Can usually just watch if asymptomatic. Watch out for bone marrow suppresion\n\nTreatment to reduce white count: Between Chlorambucil vs Ibrutinib",
+    "hidden" : false
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52781"),
+    "id" : 34,
+    "catagory" : "HemeOnc",
+    "name" : "Other chronic leukemia (hairy cell/ etc.)",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52782"),
+    "id" : 35,
+    "catagory" : "HemeOnc",
+    "name" : "Acute leukemia",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52783"),
+    "id" : 36,
+    "catagory" : "HemeOnc",
+    "name" : "Acute lymphocytic leukemia",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52784"),
+    "id" : 37,
+    "catagory" : "HemeOnc",
+    "name" : "Acute myelogenous leukemia",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52785"),
+    "id" : 38,
+    "catagory" : "HemeOnc",
+    "name" : "Non-Hodgkin's lymphoma",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52786"),
+    "id" : 39,
+    "catagory" : "HemeOnc",
+    "name" : "Hodgkin's disease",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52787"),
+    "id" : 40,
+    "catagory" : "HemeOnc",
+    "name" : "Plasma cell disorder",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52788"),
+    "id" : 41,
+    "catagory" : "HemeOnc",
+    "name" : "Multiple myeloma",
+    "selected" : false,
+    "preceptor" : "Picozzi",
+    "date" : "09/11/2017",
+    "whatWasLearned" : "...",
+    "hidden" : false
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52789"),
+    "id" : 42,
+    "catagory" : "HemeOnc",
+    "name" : "Benign monoclonal gammopathy",
+    "selected" : false,
+    "preceptor" : "Wilfong",
+    "date" : "09/01/2017",
+    "whatWasLearned" : "MGUS is monoclonal band  < 3.\n1% risk of progressing to multiple myeloma per year\n\nAlso think about CRAB\nC: Calcium\nR: Renal function\nA: Anemia\nB: Bone lesions",
+    "hidden" : false
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5278a"),
+    "id" : 43,
+    "catagory" : "HemeOnc",
+    "name" : "Waldenstrom:s macroglobulinemia",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5278b"),
+    "id" : 44,
+    "catagory" : "HemeOnc",
+    "name" : "Amyloidosis (AL and other variants)",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5278c"),
+    "id" : 45,
+    "catagory" : "HemeOnc",
+    "name" : "Amyloidosis and the heart (also in cardiovascular)",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5278d"),
+    "id" : 46,
+    "catagory" : "HemeOnc",
+    "name" : "Cancer prevention and screening",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5278e"),
+    "id" : 47,
+    "catagory" : "HemeOnc",
+    "name" : "Smoking cessation",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5278f"),
+    "id" : 48,
+    "catagory" : "HemeOnc",
+    "name" : "Screening for breast cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 49 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52790"),
+    "id" : 49,
+    "catagory" : "HemeOnc",
+    "name" : "Screening for prostate cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 50 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52791"),
+    "id" : 50,
+    "catagory" : "HemeOnc",
+    "name" : "Colon polyposis syndrome",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 51 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52792"),
+    "id" : 51,
+    "catagory" : "HemeOnc",
+    "name" : "Screening for colorectal cancer (not polyposis syndromes)",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 52 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52793"),
+    "id" : 52,
+    "catagory" : "HemeOnc",
+    "name" : "Screening for cervical cancer and other Pap smear",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 53 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52794"),
+    "id" : 53,
+    "catagory" : "HemeOnc",
+    "name" : "Screening for other cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 54 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52795"),
+    "id" : 54,
+    "catagory" : "HemeOnc",
+    "name" : "Diet and cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 55 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52796"),
+    "id" : 55,
+    "catagory" : "HemeOnc",
+    "name" : "Management of malignant pain",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 56 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52797"),
+    "id" : 56,
+    "catagory" : "HemeOnc",
+    "name" : "Cardiac tumors",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 57 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52798"),
+    "id" : 57,
+    "catagory" : "HemeOnc",
+    "name" : "Bone tumors",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 58 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f52799"),
+    "id" : 58,
+    "catagory" : "HemeOnc",
+    "name" : "Soft tissue cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 59 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5279a"),
+    "id" : 59,
+    "catagory" : "HemeOnc",
+    "name" : "Assorted endocrine tumors and endocrine manifestations of tumors",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 60 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5279b"),
+    "id" : 60,
+    "catagory" : "HemeOnc",
+    "name" : "Insulinoma",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 61 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5279c"),
+    "id" : 61,
+    "catagory" : "HemeOnc",
+    "name" : "VIP-secreting tumors (dassify a;> GC.lstroenteroiogy) ~",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 62 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5279d"),
+    "id" : 62,
+    "catagory" : "HemeOnc",
+    "name" : "Zollinger Ellison syndrome (gastrinoma/ classify as Gastroenterology)",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 63 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5279e"),
+    "id" : 63,
+    "catagory" : "HemeOnc",
+    "name" : "Glucagon-Secreting tumors .",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 64 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f5279f"),
+    "id" : 64,
+    "catagory" : "HemeOnc",
+    "name" : "Carcinoid syndrome",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 65 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527a0"),
+    "id" : 65,
+    "catagory" : "HemeOnc",
+    "name" : "Malignancy-associated hypercalcemia",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 66 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527a1"),
+    "id" : 66,
+    "catagory" : "HemeOnc",
+    "name" : "Ectopic ACTH from tumor",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 67 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527a2"),
+    "id" : 67,
+    "catagory" : "HemeOnc",
+    "name" : "SIADH from tumor",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 68 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527a3"),
+    "id" : 68,
+    "catagory" : "HemeOnc",
+    "name" : "Multiple endocrine neoplasia",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 69 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527a4"),
+    "id" : 69,
+    "catagory" : "HemeOnc",
+    "name" : "Oncologic complications of HIV infection",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 70 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527a5"),
+    "id" : 70,
+    "catagory" : "HemeOnc",
+    "name" : "Oncologic emergencies",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 71 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527a6"),
+    "id" : 71,
+    "catagory" : "HemeOnc",
+    "name" : "Superior vena cava syndrome",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 72 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527a7"),
+    "id" : 72,
+    "catagory" : "HemeOnc",
+    "name" : "Fever and neutropenia",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 73 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527a8"),
+    "id" : 73,
+    "catagory" : "HemeOnc",
+    "name" : "Brain tumors",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 74 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527a9"),
+    "id" : 74,
+    "catagory" : "HemeOnc",
+    "name" : "Spinal cord tumors and compression",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 75 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527aa"),
+    "id" : 75,
+    "catagory" : "HemeOnc",
+    "name" : "Cardiac tamponade from neoplastic pericarditis",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 76 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527ab"),
+    "id" : 76,
+    "catagory" : "HemeOnc",
+    "name" : "Tumor lysis syndrome",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 77 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527ac"),
+    "id" : 77,
+    "catagory" : "HemeOnc",
+    "name" : "Untoward effects of cancer chemotherapy",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 78 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527ad"),
+    "id" : 78,
+    "catagory" : "HemeOnc",
+    "name" : "Carcinoma of unknown primary",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false
+}
+
+/* 79 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527ae"),
+    "id" : 79,
+    "name" : "Easy Bruising",
+    "preceptor" : "Wilfong",
+    "date" : "09/08/2017",
+    "selected" : true,
+    "whatWasLearned" : "Bruising is primary or secondary. \nPrimary is most likely related to platelet dysfunction.",
+    "hidden" : true
+}
+
+/* 80 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527af"),
+    "id" : 80,
+    "name" : "Test",
+    "preceptor" : "test",
+    "date" : "",
+    "selected" : true,
+    "hidden" : true
+}
+
+/* 81 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527b0"),
+    "id" : 81,
+    "name" : "warm autoimmune hemolytic anemia",
+    "preceptor" : "",
+    "date" : "",
+    "selected" : true,
+    "hidden" : true
+}
+
+/* 82 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527b1"),
+    "id" : 82,
+    "name" : "Warm autoimmune hemolytic anemia",
+    "preceptor" : "O'Malley",
+    "date" : "09/05/2017",
+    "selected" : false,
+    "whatWasLearned" : ""
+}
+
+/* 83 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527b2"),
+    "id" : 83,
+    "name" : "Easy bruising",
+    "preceptor" : "Wilfong",
+    "date" : "09/08/2017",
+    "selected" : false,
+    "whatWasLearned" : "Primary vs secondary bleeding"
+}
+
+/* 84 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527b3"),
+    "id" : 84,
+    "name" : "Duodenal adenocarcinoma",
+    "preceptor" : "Picozzi",
+    "date" : "09/11/2017",
+    "selected" : false
+}
+
+/* 85 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527b4"),
+    "id" : 85,
+    "name" : "High risk breast findings",
+    "preceptor" : "O' Malley",
+    "date" : "09/05/2017",
+    "selected" : false,
+    "whatWasLearned" : "Options for risk reduction ranging from alternating breast MRI and mammography every 6-months on one end of the spectrum, to prophylactic bilateral mastectomy on the other end of the spectrum, which I am not recommending.  We also discussed the use of endocrine therapy for secondary prevention, which is somewhere in the middle.  I reviewed the data from various clinical trials including the Breast Cancer Prevention Trial (BCPT) that was conducted in the 1990s, followed by the Study of Tamoxifen and Raloxifene (STAR).  The BCPT was a large randomized controlled trial of over 20,000 women with an increased lifetime risk of breast cancer who were randomized to either receive tamoxifen 20 mg p.o. daily or placebo.  The women who took tamoxifen had a 50% risk reduction in developing invasive cancers which led to the approval of this drug for this reason.  I also reviewed the STAR data indicating that raloxifene can lead to a similar risk reduction in postmenopausal women, with a lesser risk of endometrial cancer and venous thromboembolic events than tamoxifen, and can actually improve bone density.  I described the risks, benefits and side effects of tamoxifen with her today including the risk of hot flashes and other vasomotor symptoms, vaginal dryness, decreased libido, mood changes including depression, increased risk of endometrial cancer and venous thromboembolic events (approximately 4 in 1000 women)"
+}
+
+/* 86 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527b5"),
+    "id" : 86,
+    "name" : "test",
+    "preceptor" : "",
+    "date" : "",
+    "selected" : true,
+    "hidden" : true
+}
+
+/* 87 */
+{
+    "_id" : ObjectId("59b9a42412f9ce3ee4f527b6"),
+    "id" : 87,
+    "name" : "Mantle Cell Lymphoma",
+    "preceptor" : "O'Malley",
+    "date" : "09/12/2017",
+    "selected" : false,
+    "whatWasLearned" : "Cyclin D1 is gene marker.\nVery agressive."
+}
+
+/* 88 */
+{
+    "_id" : ObjectId("59bf646f7104051d63d88b46"),
+    "id" : 88,
+    "name" : "testing",
+    "preceptor" : "This is a test",
+    "date" : "01/01/0001",
+    "selected" : true,
+    "__v" : 0,
+    "whatWasLearned" : "A test",
+    "hidden" : true
+}
+
+/* 89 */
+{
+    "_id" : ObjectId("59bff84b7104051d63d88b47"),
+    "id" : 89,
+    "name" : "Cholangiocarcinoma",
+    "preceptor" : "Picozzi",
+    "date" : "9/18/2017",
+    "selected" : false,
+    "__v" : 0,
+    "whatWasLearned" : "Recurrent, metastatic. \nQuit nice female. "
+}
+
+/* 90 */
+{
+    "_id" : ObjectId("59c2d5052b96f1314fa33159"),
+    "id" : 90,
+    "name" : "Iron deficiency anemia in setting of chronic liver disease",
+    "preceptor" : "Dr. Lin",
+    "date" : "09/19/2017",
+    "selected" : false,
+    "__v" : 0,
+    "whatWasLearned" : "Seen in consult. 25 AA M p/w Hg 5.6. Ferratin was 14 in the setting of chronic liver disease. "
+}

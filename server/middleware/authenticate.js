@@ -14,7 +14,7 @@ export default (req, res, next) => {
     jwt.verify(token, config.jwtSecret, (err, decoded) => {
       if (err) {
         res.status(401).json({
-          error: "Failed to authenticate"
+          error: `Decoded: ${decoded}. Failed to authenticate token ${token}`
         });
       } else {
         console.log(decoded);
