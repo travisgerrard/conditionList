@@ -6,7 +6,10 @@ import { Link, Route, withRouter } from 'react-router-dom';
 import { logout } from './actions/authActions';
 import requireAuth from './utils/requireAuth';
 import ConditionList from './ConditionList.js';
-import Greetings from './Greetings';
+import ConditionListDerm from './ConditionListDerm.js';
+import DermTerm from './DermTerm.js';
+import GreetingsNotLoggedIn from './Greetings';
+import GreetingsLoggedIn from './GreetingsLoggedIn';
 import SignUpPage from './signup/SignupPage';
 import LoginPage from './login/LoginPage';
 
@@ -29,7 +32,9 @@ class App extends Component {
 
     const userLinks = (
       <div className="right menu">
-        <ActiveLink activeOnlyWhenExact to="/condition" label="Condition" />
+        <ActiveLink activeOnlyWhenExact to="/hemeonc" label="Heme-Onc" />
+        <ActiveLink activeOnlyWhenExact to="/derm" label="Derm" />
+        <ActiveLink activeOnlyWhenExact to="/dermTerm" label="Derm-Term" />
         <a className="item" href="logsOut" onClick={this.logout}>Logout</a>
       </div>
     );
@@ -50,15 +55,16 @@ class App extends Component {
 
         <Route exact path="/" render={() => (
             isAuthenticated ? (
-              <ConditionList />
+              <GreetingsLoggedIn />
             ): (
-              <Greetings />
+              <GreetingsNotLoggedIn />
             )
         )}/>
         <Route path="/signup" component={SignUpPage} />
         <Route path="/login" component={LoginPage} />
-        <Route path="/condition" component={requireAuth(ConditionList)} />
-
+        <Route path="/hemeonc" component={requireAuth(ConditionList)} />
+        <Route path="/derm" component={requireAuth(ConditionListDerm)} />
+        <Route path="/dermTerm" component={requireAuth(DermTerm)} />
 
       </div>
     );

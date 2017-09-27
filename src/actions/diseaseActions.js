@@ -54,6 +54,21 @@ export function fetchDiseases() {
   }
 }
 
+export function fetchDiseasesWithCondition(specialty) {
+  return dispatch => {
+    fetch(`${LOCAL_HOST}/api/diseases/?specialty=${specialty}`, {
+      method: 'get',
+      headers: setHeaders({
+        "Content-type": "application/json"
+      })
+    }).then(handleResponse)
+      .then(data => {
+        //console.log(`The data is ${data}`);
+        dispatch(setDiseases(data));
+      });
+  }
+}
+
 export function saveDisease(data) {
   return dispatch => {
     fetch(`${LOCAL_HOST}/api/diseases`, {

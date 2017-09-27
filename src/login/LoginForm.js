@@ -44,7 +44,7 @@ class LoginForm extends Component {
   }
 
   render() {
-    const { errors, identifier, password, isLoading } = this.state;
+    const { errors, identifier/*, password, isLoading */ } = this.state;
     return (
       <form className={classnames('ui', 'form', { loading: this.state.loading })} onSubmit={this.handleSubmit}>
         <h1>Login</h1>

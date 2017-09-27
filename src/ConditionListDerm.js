@@ -89,7 +89,7 @@ class App extends Component {
     diseaseData: this.props.diseases,//localStorage.myData ? JSON.parse(localStorage.myData) : myData,
     addConditionInputBox: '',
     searchInputBox: '',
-    specialty: 'HemeOnc',
+    specialty: 'Derm',
   }
 
   // Runs at initial loading of patient info. uses action to call server for data
@@ -134,18 +134,14 @@ class App extends Component {
     const diseaseData = this.props.diseases;
     const lastElementInArray = diseaseData[diseaseData.length - 1];
     var newDisease = {
-      id: lastElementInArray.id + 1,
-      Catagory: this.state.specialty,
+      id: lastElementInArray ? lastElementInArray.id + 1 : 0,
+      catagory: this.state.specialty,
       name: this.state.addConditionInputBox,
       preceptor: "",
       date: "",
       selected: true
     };
     this.props.saveDisease(newDisease);
-    // diseaseData.push(newDisease);
-    // this.setState({ diseaseData });
-    // localStorage.myData = JSON.stringify(this.state.diseaseData); //Using localStorage to persist data.
-    //
     this.setState({
       addConditionInputBox: ""
     });
@@ -249,7 +245,7 @@ class App extends Component {
     return (
       <div>
         <br/>
-        <ListTitle>Heme-Onc</ListTitle>
+        <ListTitle>{this.state.specialty}</ListTitle>
         {searchBox()}
          {this.state.searchInputBox === '' ? diseaseNames : searchNames}
          <br/>

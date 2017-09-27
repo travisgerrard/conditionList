@@ -1,11 +1,17 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+var path = require('path');
+
+
+// Priority serve any static files.
 
 // adding Mongo as database and then loading model
 const config = require('./config/index.json');
 require('./models/index').connect(config.dbUri);
 
 const app = express();
+app.use(express.static(path.resolve(__dirname, '../build')));
+
 app.use(bodyParser.json());
 
 app.use(function(req, res, next) {
@@ -24,5 +30,10 @@ app.use('/api/auth', auth);
 
 const diseases = require('./routes/diseases');
 app.use('/api/diseases', diseases);
+
+// All remaining requests return the React app, so it can handle routing.
+app.get('*', function(request, response) {
+  response.sendFile(path.resolve(__dirname, '../build', 'index.html'));
+});
 
 app.listen(8080, () => console.log("Running on localhost:8080"));
