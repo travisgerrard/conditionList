@@ -5,4 +5,4 @@ export const SET_DISEASES = 'SET_DISEASES';
 export const SET_CURRENT_USER = 'SET_CURRENT_USER';
 
 
-export const LOCAL_HOST = 'http://localhost:8080';
+export const LOCAL_HOST = '';
