@@ -12,6 +12,7 @@ import GreetingsNotLoggedIn from './Greetings';
 import GreetingsLoggedIn from './GreetingsLoggedIn';
 import SignUpPage from './signup/SignupPage';
 import LoginPage from './login/LoginPage';
+import Logout from './Logout';
 
 const ActiveLink = ({ label, to, activeOnlyWhenExact }) => (
   <Route path={to} exact={activeOnlyWhenExact} children={({ match }) => (
@@ -35,7 +36,7 @@ class App extends Component {
         <ActiveLink activeOnlyWhenExact to="/hemeonc" label="Heme-Onc" />
         <ActiveLink activeOnlyWhenExact to="/derm" label="Derm" />
         <ActiveLink activeOnlyWhenExact to="/dermTerm" label="Derm-Term" />
-        <a className="item" href="logsOut" onClick={this.logout}>Logout</a>
+        <ActiveLink activeOnlyWhenExact to="/logout" label="Logout" />
       </div>
     );
 
@@ -65,6 +66,7 @@ class App extends Component {
         <Route path="/hemeonc" component={requireAuth(ConditionList)} />
         <Route path="/derm" component={requireAuth(ConditionListDerm)} />
         <Route path="/dermTerm" component={requireAuth(DermTerm)} />
+        <Route path="/logout" component={requireAuth(Logout)} />
 
       </div>
     );
