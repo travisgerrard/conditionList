@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 const User = require('mongoose').model('User');
 
 const ConditionSchema = new mongoose.Schema({
-  id: Number,
   catagory: String,
   name: String,
   selected: Boolean,

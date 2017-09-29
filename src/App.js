@@ -61,10 +61,11 @@ class App extends Component {
               <GreetingsNotLoggedIn />
             )
         )}/>
+
         <Route path="/signup" component={SignUpPage} />
         <Route path="/login" component={LoginPage} />
-        <Route path="/hemeonc" component={requireAuth(ConditionList)} />
-        <Route path="/derm" component={requireAuth(ConditionListDerm)} />
+        <Route path="/hemeonc" render={()=> isAuthenticated ? <ConditionList pageTitle="HemeOnc"/> : <GreetingsNotLoggedIn />} />
+        <Route path="/derm" render={()=> isAuthenticated ? <ConditionList pageTitle="Derm"/> : <GreetingsNotLoggedIn />} />
         <Route path="/dermTerm" component={requireAuth(DermTerm)} />
         <Route path="/logout" component={requireAuth(Logout)} />
 

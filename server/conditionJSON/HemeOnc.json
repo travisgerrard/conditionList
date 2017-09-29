@@ -1,7 +1,6 @@
 [
- {
-   "id": 1,
-   "catagory": "HemeOnc",
+  {
+  "catagory": "HemeOnc",
    "name": "Lung cancer",
    "selected": false,
    "preceptor": "",
@@ -10,8 +9,7 @@
    "hidden": false
  },
  {
-   "id": 2,
-   "catagory": "HemeOnc",
+    "catagory": "HemeOnc",
    "name": "Breast cancer",
    "selected": false,
    "preceptor": "",
@@ -20,8 +18,7 @@
    "hidden": false
  },
  {
-   "id": 3,
-   "catagory": "HemeOnc",
+    "catagory": "HemeOnc",
    "name": "Neoplasms of the head and neck",
    "selected": false,
    "preceptor": "",
@@ -30,8 +27,7 @@
    "hidden": false
  },
  {
-   "id": 4,
-   "catagory": "HemeOnc",
+    "catagory": "HemeOnc",
    "name": "Thyroid nodules and thyroid cancer",
    "selected": false,
    "preceptor": "",
@@ -40,8 +36,7 @@
    "hidden": false
  },
  {
-   "id": 5,
-   "catagory": "HemeOnc",
+    "catagory": "HemeOnc",
    "name": "Neoplasms of the head and neck (except thyroid cancer)",
    "selected": false,
    "preceptor": "",
@@ -50,8 +45,7 @@
    "hidden": false
  },
  {
-   "id": 6,
-   "catagory": "HemeOnc",
+    "catagory": "HemeOnc",
    "name": "Gastrointestinal or hepatic cancer. .'",
    "selected": false,
    "preceptor": "",
@@ -60,8 +54,7 @@
    "hidden": false
  },
  {
-   "id": 7,
-   "catagory": "HemeOnc",
+    "catagory": "HemeOnc",
    "name": "Esophageal carcinoma",
    "selected": false,
    "preceptor": "",
@@ -70,8 +63,7 @@
    "hidden": false
  },
  {
-   "id": 8,
-   "catagory": "HemeOnc",
+    "catagory": "HemeOnc",
    "name": "Stomach cancer",
    "selected": false,
    "preceptor": "",
@@ -80,7 +72,6 @@
    "hidden": false
  },
  {
-   "id": 9,
    "catagory": "HemeOnc",
    "name": "Colorectal cancer",
    "selected": false,
@@ -90,7 +81,6 @@
    "hidden": false
  },
  {
-   "id": 10,
    "catagory": "HemeOnc",
    "name": "Pancreatic: carcinoma (except pancreatic endocrine tumors)",
    "selected": false,
@@ -100,7 +90,6 @@
    "hidden": false
  },
  {
-   "id": 11,
    "catagory": "HemeOnc",
    "name": "Hepatocellular carcinoma",
    "selected": false,
@@ -110,7 +99,6 @@
    "hidden": false
  },
  {
-   "id": 12,
    "catagory": "HemeOnc",
    "name": "Urologic cancer",
    "selected": false,
@@ -120,7 +108,6 @@
    "hidden": false
  },
  {
-   "id": 13,
    "catagory": "HemeOnc",
    "name": "Renal cell carcinoma",
    "selected": false,
@@ -130,7 +117,6 @@
    "hidden": false
  },
  {
-   "id": 14,
    "catagory": "HemeOnc",
    "name": "Bladder carcinoma",
    "selected": false,
@@ -140,7 +126,6 @@
    "hidden": false
  },
  {
-   "id": 15,
    "catagory": "HemeOnc",
    "name": "Prostate carcinoma",
    "selected": false,
@@ -150,7 +135,6 @@
    "hidden": false
  },
  {
-   "id": 16,
    "catagory": "HemeOnc",
    "name": "Testicular carcinoma/tumors",
    "selected": false,
@@ -160,7 +144,6 @@
    "hidden": false
  },
  {
-   "id": 17,
    "catagory": "HemeOnc",
    "name": "Gynecologic cancer",
    "selected": false,
@@ -170,7 +153,6 @@
    "hidden": false
  },
  {
-   "id": 18,
    "catagory": "HemeOnc",
    "name": "Ovarian cancer",
    "selected": false,
@@ -180,7 +162,6 @@
    "hidden": false
  },
  {
-   "id": 19,
    "catagory": "HemeOnc",
    "name": "Endometrial cancer",
    "selected": false,
@@ -190,7 +171,6 @@
    "hidden": false
  },
  {
-   "id": 20,
    "catagory": "HemeOnc",
    "name": "Cervical cancer",
    "selected": false,
@@ -200,7 +180,6 @@
    "hidden": false
  },
  {
-   "id": 21,
    "catagory": "HemeOnc",
    "name": "CNS tumors",
    "selected": false,
@@ -210,7 +189,6 @@
    "hidden": false
  },
  {
-   "id": 22,
    "catagory": "HemeOnc",
    "name": "Brain tumors",
    "selected": false,
@@ -220,7 +198,6 @@
    "hidden": false
  },
  {
-   "id": 23,
    "catagory": "HemeOnc",
    "name": "Spinal cord tumors and compression",
    "selected": false,
@@ -230,7 +207,6 @@
    "hidden": false
  },
  {
-   "id": 24,
    "catagory": "HemeOnc",
    "name": "Carcinomatous meningitis",
    "selected": false,
@@ -240,7 +216,6 @@
    "hidden": false
  },
  {
-   "id": 25,
    "catagory": "HemeOnc",
    "name": "Skin cancer",
    "selected": false,
@@ -250,7 +225,6 @@
    "hidden": false
  },
  {
-   "id": 26,
    "catagory": "HemeOnc",
    "name": "Squamous cell carcinoma of the skin",
    "selected": false,
@@ -260,7 +234,6 @@
    "hidden": false
  },
  {
-   "id": 27,
    "catagory": "HemeOnc",
    "name": "Basal cell carcifloma of the skin",
    "selected": false,
@@ -270,7 +243,6 @@
    "hidden": false
  },
  {
-   "id": 28,
    "catagory": "HemeOnc",
    "name": "Melanoma and nevi",
    "selected": false,
@@ -280,7 +252,6 @@
    "hidden": false
  },
  {
-   "id": 29,
    "catagory": "HemeOnc",
    "name": "Mycosis fungoides",
    "selected": false,
@@ -290,7 +261,6 @@
    "hidden": false
  },
  {
-   "id": 30,
    "catagory": "HemeOnc",
    "name": "Hematologic malignancies",
    "selected": false,
@@ -300,7 +270,6 @@
    "hidden": false
  },
  {
-   "id": 31,
    "catagory": "HemeOnc",
    "name": "Chronic leukemias",
    "selected": false,
@@ -310,7 +279,6 @@
    "hidden": false
  },
  {
-   "id": 32,
    "catagory": "HemeOnc",
    "name": "Chronic myelogenous leukemia",
    "selected": false,
@@ -320,7 +288,6 @@
    "hidden": false
  },
  {
-   "id": 33,
    "catagory": "HemeOnc",
    "name": "Chronic lymphocytic leukemia",
    "selected": false,
@@ -330,7 +297,6 @@
    "hidden": false
  },
  {
-   "id": 34,
    "catagory": "HemeOnc",
    "name": "Other chronic leukemia (hairy cell/ etc.)",
    "selected": false,
@@ -340,7 +306,6 @@
    "hidden": false
  },
  {
-   "id": 35,
    "catagory": "HemeOnc",
    "name": "Acute leukemia",
    "selected": false,
@@ -350,7 +315,6 @@
    "hidden": false
  },
  {
-   "id": 36,
    "catagory": "HemeOnc",
    "name": "Acute lymphocytic leukemia",
    "selected": false,
@@ -360,7 +324,6 @@
    "hidden": false
  },
  {
-   "id": 37,
    "catagory": "HemeOnc",
    "name": "Acute myelogenous leukemia",
    "selected": false,
@@ -370,7 +333,6 @@
    "hidden": false
  },
  {
-   "id": 38,
    "catagory": "HemeOnc",
    "name": "Non-Hodgkin's lymphoma",
    "selected": false,
@@ -380,7 +342,6 @@
    "hidden": false
  },
  {
-   "id": 39,
    "catagory": "HemeOnc",
    "name": "Hodgkin's disease",
    "selected": false,
@@ -390,7 +351,6 @@
    "hidden": false
  },
  {
-   "id": 40,
    "catagory": "HemeOnc",
    "name": "Plasma cell disorder",
    "selected": false,
@@ -400,7 +360,6 @@
    "hidden": false
  },
  {
-   "id": 41,
    "catagory": "HemeOnc",
    "name": "Multiple myeloma",
    "selected": false,
@@ -410,7 +369,6 @@
    "hidden": false
  },
  {
-   "id": 42,
    "catagory": "HemeOnc",
    "name": "Benign monoclonal gammopathy",
    "selected": false,
@@ -420,7 +378,6 @@
    "hidden": false
  },
  {
-   "id": 43,
    "catagory": "HemeOnc",
    "name": "Waldenstrom:s macroglobulinemia",
    "selected": false,
@@ -430,7 +387,6 @@
    "hidden": false
  },
  {
-   "id": 44,
    "catagory": "HemeOnc",
    "name": "Amyloidosis (AL and other variants)",
    "selected": false,
@@ -440,7 +396,6 @@
    "hidden": false
  },
  {
-   "id": 45,
    "catagory": "HemeOnc",
    "name": "Amyloidosis and the heart (also in cardiovascular)",
    "selected": false,
@@ -450,7 +405,6 @@
    "hidden": false
  },
  {
-   "id": 46,
    "catagory": "HemeOnc",
    "name": "Cancer prevention and screening",
    "selected": false,
@@ -460,7 +414,6 @@
    "hidden": false
  },
  {
-   "id": 47,
    "catagory": "HemeOnc",
    "name": "Smoking cessation",
    "selected": false,
@@ -470,7 +423,6 @@
    "hidden": false
  },
  {
-   "id": 48,
    "catagory": "HemeOnc",
    "name": "Screening for breast cancer",
    "selected": false,
@@ -480,7 +432,6 @@
    "hidden": false
  },
  {
-   "id": 49,
    "catagory": "HemeOnc",
    "name": "Screening for prostate cancer",
    "selected": false,
@@ -490,7 +441,6 @@
    "hidden": false
  },
  {
-   "id": 50,
    "catagory": "HemeOnc",
    "name": "Colon polyposis syndrome",
    "selected": false,
@@ -500,7 +450,6 @@
    "hidden": false
  },
  {
-   "id": 51,
    "catagory": "HemeOnc",
    "name": "Screening for colorectal cancer (not polyposis syndromes)",
    "selected": false,
@@ -510,7 +459,6 @@
    "hidden": false
  },
  {
-   "id": 52,
    "catagory": "HemeOnc",
    "name": "Screening for cervical cancer and other Pap smear",
    "selected": false,
@@ -520,7 +468,6 @@
    "hidden": false
  },
  {
-   "id": 53,
    "catagory": "HemeOnc",
    "name": "Screening for other cancer",
    "selected": false,
@@ -530,7 +477,6 @@
    "hidden": false
  },
  {
-   "id": 54,
    "catagory": "HemeOnc",
    "name": "Diet and cancer",
    "selected": false,
@@ -540,7 +486,6 @@
    "hidden": false
  },
  {
-   "id": 55,
    "catagory": "HemeOnc",
    "name": "Management of malignant pain",
    "selected": false,
@@ -550,7 +495,6 @@
    "hidden": false
  },
  {
-   "id": 56,
    "catagory": "HemeOnc",
    "name": "Cardiac tumors",
    "selected": false,
@@ -560,7 +504,6 @@
    "hidden": false
  },
  {
-   "id": 57,
    "catagory": "HemeOnc",
    "name": "Bone tumors",
    "selected": false,
@@ -570,7 +513,6 @@
    "hidden": false
  },
  {
-   "id": 58,
    "catagory": "HemeOnc",
    "name": "Soft tissue cancer",
    "selected": false,
@@ -580,7 +522,6 @@
    "hidden": false
  },
  {
-   "id": 59,
    "catagory": "HemeOnc",
    "name": "Assorted endocrine tumors and endocrine manifestations of tumors",
    "selected": false,
@@ -590,7 +531,6 @@
    "hidden": false
  },
  {
-   "id": 60,
    "catagory": "HemeOnc",
    "name": "Insulinoma",
    "selected": false,
@@ -600,7 +540,6 @@
    "hidden": false
  },
  {
-   "id": 61,
    "catagory": "HemeOnc",
    "name": "VIP-secreting tumors (dassify a;> GC.lstroenteroiogy) ~",
    "selected": false,
@@ -610,7 +549,6 @@
    "hidden": false
  },
  {
-   "id": 62,
    "catagory": "HemeOnc",
    "name": "Zollinger Ellison syndrome (gastrinoma/ classify as Gastroenterology)",
    "selected": false,
@@ -620,7 +558,6 @@
    "hidden": false
  },
  {
-   "id": 63,
    "catagory": "HemeOnc",
    "name": "Glucagon-Secreting tumors .",
    "selected": false,
@@ -630,7 +567,6 @@
    "hidden": false
  },
  {
-   "id": 64,
    "catagory": "HemeOnc",
    "name": "Carcinoid syndrome",
    "selected": false,
@@ -640,7 +576,6 @@
    "hidden": false
  },
  {
-   "id": 65,
    "catagory": "HemeOnc",
    "name": "Malignancy-associated hypercalcemia",
    "selected": false,
@@ -650,7 +585,6 @@
    "hidden": false
  },
  {
-   "id": 66,
    "catagory": "HemeOnc",
    "name": "Ectopic ACTH from tumor",
    "selected": false,
@@ -660,7 +594,6 @@
    "hidden": false
  },
  {
-   "id": 67,
    "catagory": "HemeOnc",
    "name": "SIADH from tumor",
    "selected": false,
@@ -670,7 +603,6 @@
    "hidden": false
  },
  {
-   "id": 68,
    "catagory": "HemeOnc",
    "name": "Multiple endocrine neoplasia",
    "selected": false,
@@ -680,7 +612,6 @@
    "hidden": false
  },
  {
-   "id": 69,
    "catagory": "HemeOnc",
    "name": "Oncologic complications of HIV infection",
    "selected": false,
@@ -690,7 +621,6 @@
    "hidden": false
  },
  {
-   "id": 70,
    "catagory": "HemeOnc",
    "name": "Oncologic emergencies",
    "selected": false,
@@ -700,7 +630,6 @@
    "hidden": false
  },
  {
-   "id": 71,
    "catagory": "HemeOnc",
    "name": "Superior vena cava syndrome",
    "selected": false,
@@ -710,7 +639,6 @@
    "hidden": false
  },
  {
-   "id": 72,
    "catagory": "HemeOnc",
    "name": "Fever and neutropenia",
    "selected": false,
@@ -720,7 +648,6 @@
    "hidden": false
  },
  {
-   "id": 73,
    "catagory": "HemeOnc",
    "name": "Brain tumors",
    "selected": false,
@@ -730,7 +657,6 @@
    "hidden": false
  },
  {
-   "id": 74,
    "catagory": "HemeOnc",
    "name": "Spinal cord tumors and compression",
    "selected": false,
@@ -740,7 +666,6 @@
    "hidden": false
  },
  {
-   "id": 75,
    "catagory": "HemeOnc",
    "name": "Cardiac tamponade from neoplastic pericarditis",
    "selected": false,
@@ -750,7 +675,6 @@
    "hidden": false
  },
  {
-   "id": 76,
    "catagory": "HemeOnc",
    "name": "Tumor lysis syndrome",
    "selected": false,
@@ -760,7 +684,6 @@
    "hidden": false
  },
  {
-   "id": 77,
    "catagory": "HemeOnc",
    "name": "Untoward effects of cancer chemotherapy",
    "selected": false,
@@ -770,7 +693,6 @@
    "hidden": false
  },
  {
-   "id": 78,
    "catagory": "HemeOnc",
    "name": "Carcinoma of unknown primary",
    "selected": false,
