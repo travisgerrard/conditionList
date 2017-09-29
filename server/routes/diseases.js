@@ -5,7 +5,8 @@ import authenticate from '../middleware/authenticate';
 
 
 router.get('/', authenticate, (req, res) => {
-  const filter = { catagory: req.query.specialty};
+  const filter = { catagory: req.query.specialty, _creator: req.query.user};
+  console.log(filter);
   Condition.find(filter).exec((err, docs) => {
       if (err) {
         console.error(err);

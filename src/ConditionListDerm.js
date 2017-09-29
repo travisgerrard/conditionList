@@ -94,7 +94,7 @@ class App extends Component {
 
   // Runs at initial loading of patient info. uses action to call server for data
   componentDidMount () {
-    this.props.fetchDiseasesWithCondition(this.state.specialty);
+    this.props.fetchDiseasesWithCondition(this.state.specialty, this.props.userID);
   }
 
   headerTapped = (element) => {
@@ -139,8 +139,10 @@ class App extends Component {
       name: this.state.addConditionInputBox,
       preceptor: "",
       date: "",
-      selected: true
+      selected: true,
+      _creator: this.props.userID
     };
+    console.log(this.props.userID);
     this.props.saveDisease(newDisease);
     this.setState({
       addConditionInputBox: ""
@@ -257,6 +259,7 @@ class App extends Component {
 
 function mapStateToProps(state) {
   return {
+    userID: state.auth.user.id,
     diseases: state.diseases
   };
 }

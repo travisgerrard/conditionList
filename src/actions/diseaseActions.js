@@ -39,6 +39,17 @@ export function updateDisease(data) {
   }
 }
 
+export function tempDisease() {
+  console.log("tempDisease pressed");
+    fetch(`${LOCAL_HOST}/api/diseases/tempPopulate`, {
+      method: 'get',
+      headers: setHeaders({
+        "Content-type": "application/json"
+      })
+    })
+
+}
+
 export function fetchDiseases() {
   return dispatch => {
     fetch(`${LOCAL_HOST}/api/diseases`, {
@@ -54,9 +65,9 @@ export function fetchDiseases() {
   }
 }
 
-export function fetchDiseasesWithCondition(specialty) {
+export function fetchDiseasesWithCondition(specialty, userID) {
   return dispatch => {
-    fetch(`${LOCAL_HOST}/api/diseases/?specialty=${specialty}`, {
+    fetch(`${LOCAL_HOST}/api/diseases/?specialty=${specialty}&user=${userID}`, {
       method: 'get',
       headers: setHeaders({
         "Content-type": "application/json"

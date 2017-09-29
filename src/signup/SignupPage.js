@@ -14,7 +14,6 @@ class SignUpPage extends Component {
   userSignupRequest = ({ username }) => {
     return this.props.userSignupRequest({ username }).then(
       () => {
-
         this.setState({ redirect: true })},
     );
   }

@@ -3,7 +3,10 @@ import './App.css';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
 
-import { fetchDiseasesWithCondition, updateDisease, saveDisease } from './actions/diseaseActions';
+import { fetchDiseasesWithCondition, updateDisease, saveDisease, tempDisease } from './actions/diseaseActions';
+
+import { setHeaders } from './utils/setHeaders';
+
 
 //const myData = require('./conditionJSON/HemeOnc.json');
 
@@ -94,7 +97,7 @@ class App extends Component {
 
   // Runs at initial loading of patient info. uses action to call server for data
   componentDidMount () {
-    this.props.fetchDiseasesWithCondition(this.state.specialty);
+    this.props.fetchDiseasesWithCondition(this.state.specialty, this.props.userID);
   }
 
   headerTapped = (element) => {
@@ -134,7 +137,7 @@ class App extends Component {
     const diseaseData = this.props.diseases;
     const lastElementInArray = diseaseData[diseaseData.length - 1];
     var newDisease = {
-      id: lastElementInArray.id + 1,
+      //id: lastElementInArray.id + 1,
       Catagory: this.state.specialty,
       name: this.state.addConditionInputBox,
       preceptor: "",
@@ -261,8 +264,9 @@ class App extends Component {
 
 function mapStateToProps(state) {
   return {
+    userID: state.auth.user.id,
     diseases: state.diseases
   };
 }
 
-export default connect(mapStateToProps, { fetchDiseasesWithCondition, updateDisease, saveDisease })(App);
+export default connect(mapStateToProps, { fetchDiseasesWithCondition, updateDisease, saveDisease, tempDisease })(App);
