@@ -65,9 +65,9 @@ export function fetchDiseases() {
   }
 }
 
-export function fetchDiseasesWithCondition(specialty, userID) {
+export function fetchDiseasesWithCondition(specialty) {
   return dispatch => {
-    fetch(`${LOCAL_HOST}/api/diseases/?specialty=${specialty}&user=${userID}`, {
+    fetch(`${LOCAL_HOST}/api/diseases/?specialty=${specialty}`, {
       method: 'get',
       headers: setHeaders({
         "Content-type": "application/json"

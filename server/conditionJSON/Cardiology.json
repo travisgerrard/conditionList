@@ -1,0 +1,623 @@
+[
+ {
+   "catagory": "Cardiology",
+   "name": "Ischemic heart disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Stable angina pectoris.",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Acute coronary syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Acute myocardial infarction - complications",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Right ventricular infarction",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Cardiogenic shock",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Mechanical complications: free wall rupture/ papillary muscle rupture/ VSD",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Other AMI complication (except arrhythmias/ and post MI",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "icarditis/ which is classified under headings below)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Congestive heart failure from ischemic cardiomyopathy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Evaluation of undiagnosed chest pain (i.e./ diagnostic possibility of ischemic heart disease)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Valvular heart disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Aortic stenosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Aortic regurgitation",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Mitral regurgitation",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Mitral stenosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Prosthetic heart valve",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Myocardial disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Myocarditis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Hypertrophic cardiomyopathy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Restrictive cardiomyopathy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Dilated cardiomyopathy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Idiopathic cardiomyopathy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Sarcoidosis and the heart",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Amyloidosis and the heart",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Alcoholic cardiomyopathy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Peripartum cardiomyopathy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Congestive heart failure from ischemic cardiomyopathy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Cor pulmonale",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Management of congestive heart failure",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Vascular disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Peripheral arterial disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Acute arterial occlusion",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Chronic arterial ischemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Pulmonary vascular disease (also in Pulmonary)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Pulmonary embolism",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Primary pulmonary hypertension",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Cor pulmonale",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Venous disease of the lower extremities",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Chronic venous insufficiency",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Deep venous thrombosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Superior vena cava syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Noncardiogenic syncope",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Neurocardiogenic syncope (vasovagal syncope)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Situational syncope (e.g./ cough syncope/ micturition syncope)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Orthostatic hypotension",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Pericardial disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Acute pericarditis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Infections of the pericardial space (see also Infectious Disease section)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Pericardial effusion without tamponade",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Cardiac tamponade",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Cardiac tamponade from neoplastic pericarditis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Constrictive pericarditis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Cardiac tumors",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Endocarditis and other cardiovascular infections (see also Infectious Diseases)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Endocarditis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Infections of the pericardial space",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Endocarditis prophylaxis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Vascular disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Carotid artery disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Aorta",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Aortic dissection",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Thoracic aortic aneurysm",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Abdominal aortic aneurysm",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Disseminated atheroembolism (cholesterol emboli syndrome)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Congenital heart disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Atrial septal defect and patent foramen ovale",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Ventricular septal defect",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Cardiology",
+   "name": "Pulmonic stenosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ }
+]

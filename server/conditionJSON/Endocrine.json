@@ -1,0 +1,695 @@
+[
+ {
+   "catagory": "Endocrine",
+   "name": "Hyperthyroidism",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Graves' disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Graves' ophthalmopathy (classify as Ophthalmology)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Multinodular goiter",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Thyroiditis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Hypothyroidism",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Hashimoto's",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Other hypothyroidism",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Thyroid nodules and thyroid cancer",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Euthyroid sick syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Essential hypertension",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Primary aldosteronism and mineralocorticoid excess",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Renal artery stenosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Pheochromocytoma",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Cushing's disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Hypercholesterolemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Hypertriglyceridemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Polycystic ovary syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Other female infertility",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Amenorrhea",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Type 1 diabetes",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Type 2 diabetes",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Diabetes and pregnancy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Complications of diabetes mellitus",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Diabetic ketoacidosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Hyperosmolar coma",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Diabetic retinopathy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Diabetic nephropathy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Diabetic gastroparesis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Diabetic neuropathy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Diabetic foot",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Hypercalcemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Primary hyperparathyroidism",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Malignancy-associated hypercalcemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Sarcoidosis and hypercalcemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Hypocalcemja (other than vitamin D deficiency)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Osteoporosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Osteoporosis in women",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Osteoporosis in men",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Vitamin D deficiency and osteomalacia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Renal osteodystrophy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Hyperphosphatemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Hypophosphatemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Paget's disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Obesity",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Primary aldosteronism and mineralocorticoid excess",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Adrenal insufficiency .",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Pheochromocytoma",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Testes/Male reproductive health",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Male hypogonadism",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Male infertility",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Erectile dysfunction",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Pituitary tumors",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Hyperprolactinemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Acromegaly",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Cushing's disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Hypopituitarism",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Posterior pituitary and water metabolism",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Hypernatremia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Diabetes insipidus",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Diabetes insipidus from lithium",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Diabetes insipidus, not lithium",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Hyponatemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Hypovolemic",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "SIADH",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Hypervolemic",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Carcinoid syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Malignancy-associated hypercalcemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Ectopic ACTH from tumor",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "SIADH from tumor",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "lnsulinoma",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "VIP-secreting tumors (classify as Gastroenterology)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Zollinger-Ellison syndrome (gastrinoma, classify as Gastroenterology)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Glucagon-secreting tumors .",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Polyglandular disorders",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Multiple endocrine neoplasia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Endocrine",
+   "name": "Multiple endocrine hypofunction",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ }
+]

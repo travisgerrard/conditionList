@@ -6,7 +6,6 @@ import { Link, Route, withRouter } from 'react-router-dom';
 import { logout } from './actions/authActions';
 import requireAuth from './utils/requireAuth';
 import ConditionList from './ConditionList.js';
-import ConditionListDerm from './ConditionListDerm.js';
 import DermTerm from './DermTerm.js';
 import GreetingsNotLoggedIn from './Greetings';
 import GreetingsLoggedIn from './GreetingsLoggedIn';
@@ -51,6 +50,7 @@ class App extends Component {
       <div className="ui container">
         <div className="ui mini menu">
           <ActiveLink activeOnlyWhenExact to="/" label="Home" />
+          {this.props.auth.user.username}
           { isAuthenticated ? userLinks : guestLinks }
         </div>
 

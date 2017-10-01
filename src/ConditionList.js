@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
 import { fetchDiseasesWithCondition, updateDisease, saveDisease, tempDisease } from './actions/diseaseActions';
-
+import ConditionListLearningForm from './ConditionListLearningForm';
+import ConditionListLearningDisplay from './ConditionListLearningDisplay';
 const DeleteButton = styled.button`
   border-radius: 3px;
   padding: 0.25em 1em;
@@ -88,29 +89,48 @@ class App extends Component {
 
   // Runs at initial loading of patient info. uses action to call server for data
   componentDidMount () {
-    this.props.fetchDiseasesWithCondition(this.state.specialty, this.props.userID);
+    this.props.fetchDiseasesWithCondition(this.state.specialty);
     console.log("This did run");
     console.log(this.props.pageTitle);
   }
 
-  headerTapped = (element) => {
-    element.selected ? element.selected = false : element.selected = true;
+  headerTapped = (element) => { //Toggle isSelected
+    var foundIndex = element.selected.findIndex(x => x.user == this.props.userID);
+    // If user was found in the index, then update, otherwise add user
+    if (foundIndex >= 0) {
+      if (element.selected[foundIndex].isSelected) {
+        element.selected[foundIndex] = { user: this.props.userID, isSelected: false }
+      } else {
+        element.selected[foundIndex] = { user: this.props.userID, isSelected: true }
+      }
+    } else {
+      element.selected.push({ user: this.props.userID, isSelected: true });
+    }
     this.props.updateDisease(element);
   }
 
+  isSelected = (element) => { //Returns is item is selected by user.
+    var foundIndex = element.selected.findIndex(x => x.user == this.props.userID);
+    if (foundIndex >= 0) {
+      return element.selected[foundIndex].isSelected;
+    } else {
+      return false;
+    }
+  }
+
   handleChangePreceptor = (element, e) => {
-    element.preceptor = e.target.value;
-    this.props.updateDisease(element);
+    // element.preceptor = e.target.value;
+    // this.props.updateDisease(element);
   };
 
   handleChangeDate = (element, e) => {
-    element.date = e.target.value;
-    this.props.updateDisease(element);
+    // element.date = e.target.value;
+    // this.props.updateDisease(element);
   };
 
   handleChangeWhatWasLearned = (element, e) => {
-    element.whatWasLearned = e.target.value;
-    this.props.updateDisease(element);
+    // element.whatWasLearned = e.target.value;
+    // this.props.updateDisease(element);
   }
 
   deleteDisease = (element, e) => {
@@ -150,58 +170,58 @@ class App extends Component {
     });
   };
 
+  handleAddPostPressed = (e) => {
+    console.log(`Add post pressed`);
+  }
+
+  addPostClicked = (element, preceptor, date, whatWasLearned) => {
+    var post = {
+      _creator: this.props.userID,
+      preceptor: preceptor,
+      date: date,
+      whatWasLearned: whatWasLearned
+    }
+    element.post.push(post);
+    this.props.updateDisease(element);
+  }
+
+  hasPosts = (element) => {
+    var foundIndex = element.post.findIndex(x => x._creator == this.props.userID);
+    if (foundIndex >= 0) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
   render() {
-    const inputData = (element) => (
-      <div>
-        <InputWrapper>
-          <SelectedLabel>Seen with </SelectedLabel>
-          <SelectedInput
-            name="preceptor"
-            id="preceptor"
-            defaultValue={element.preceptor ? element.preceptor : ""}
-            onChange={this.handleChangePreceptor.bind(this, element)}
-          />
-        <br />
-        <SelectedLabel> Date</SelectedLabel>
-          <SelectedInput
-            name={element.date}
-            id={element.date}
-            placeholder="mm/dd/yy"
-            defaultValue={element.date ? element.date : ""}
-            onChange={this.handleChangeDate.bind(this, element)}
-          />
-        <br />
-        <SelectedLabel>Learned</SelectedLabel>
-        <SelectedTextArea rows="6" cols="50"
-          name="whatWasLearned"
-          id="whatWasLearned"
-          defaultValue={element.whatWasLearned ? element.whatWasLearned : ""}
-          onChange={this.handleChangeWhatWasLearned.bind(this, element)}/>
-        <br />
-        <DeleteButton onClick={this.deleteDisease.bind(this, element)}>Delete</DeleteButton>
-      </InputWrapper>
-      </div>
-    );
     var diseaseNames = this.props.diseases.length ? this.props.diseases.map((element) =>
-        <div key={element.id}>
+        <div key={element._id}>
           <ListWrapper>
           {element.hidden ? "" :
-            element.preceptor === "" ?
-              <ListItem onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem> :
-                <ListItem withData onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem> }
-          {element.selected && !element.hidden ? inputData(element) : "" }
+            this.hasPosts(element) ?
+                <ListItem withData onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem> :
+                <ListItem onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem> }
+          {this.isSelected(element) && !element.hidden ?
+            <ConditionListLearningForm addClicked={this.addPostClicked} element={element} />
+            :
+              "" }
+          {this.hasPosts(element) && this.isSelected(element) ? element.post.filter(x => x._creator == this.props.userID).map((post) =>
+            <ConditionListLearningDisplay key={post._id} preceptor={post.preceptor} date={post.date} whatWasLearned={post.whatWasLearned} />)
+            :
+            "" }
           </ListWrapper>
         </div>
       ) : <div></div>
 
     var searchNames = this.props.diseases.length ? this.props.diseases.filter(x => x.name.toLowerCase().includes(this.state.searchInputBox.toLowerCase())).map((element) =>
-        <div key={element.id}>
+        <div key={element._id}>
           <ListWrapper>
           {element.hidden ? "" :
-            element.preceptor === "" ?
+            element.post ?
               <ListItem onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem> :
                 <ListItem withData onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem> }
-          {element.selected && !element.hidden ? inputData(element) : "" }
+          {this.isSelected(element) && !element.hidden ? <ConditionListLearningForm addClicked={this.addPostClicked} element={element} /> : "" }
           </ListWrapper>
         </div>
     ) : <div></div>
@@ -231,8 +251,6 @@ class App extends Component {
     </div>
     )
 
-    //Add a "what was learned" section
-
     return (
       <div>
         <br/>
@@ -248,6 +266,7 @@ class App extends Component {
 
 function mapStateToProps(state) {
   return {
+    username: state.auth.user.username,
     userID: state.auth.user.id,
     diseases: state.diseases
   };

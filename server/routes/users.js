@@ -2,7 +2,7 @@ import express from 'express';
 const router = new express.Router();
 const User = require('mongoose').model('User');
 const Condition = require('mongoose').model('Condition');
-import hemeOncDxList from  '../conditionJSON/HemeOnc.json';
+import master from  '../conditionJSON/master.json';
 
 router.get('/:identifier', (req, res) => {
   User.findOne({
@@ -24,17 +24,17 @@ router.post('/', (req, res) => {
       console.error(err);
       return res.status(500).json({ errors: {global: "something went wrong"} });
     }
-    for (let item of hemeOncDxList) {
-      item._creator = savedUser._id;
-      console.log(item);
-      var disease = Condition(item);
-      disease.save((err, docs) => {
-        if (err) {
-          console.error(err);
-          //return res.status(500).json({ errors: {global: "something went wrong"} });
-        }
-    });
-  }
+  //   for (let item of master) {
+  //     item._creator = savedUser._id;
+  //     console.log(item);
+  //     var disease = Condition(item);
+  //     disease.save((err, docs) => {
+  //       if (err) {
+  //         console.error(err);
+  //         //return res.status(500).json({ errors: {global: "something went wrong"} });
+  //       }
+  //   });
+  // }
     console.log(savedUser._id);
     return res.json({ success: true });
   });

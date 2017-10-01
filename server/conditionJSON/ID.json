@@ -1,0 +1,1415 @@
+[
+ {
+   "catagory": "Infectious Disease",
+   "name": "Skin and soft tissue infections",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Dermatophytes",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Herpes Zoster/varicella",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Viral exanthems (other than varicella)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Cellulitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Necrotizing soft tissue infections and gas gangrene",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Lymphadenitis and lymphangitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "CNS Infections",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Meningitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Viral Meningitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": ".Bacterial Meningitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Other Meningitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Brain Abscess",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Encephalitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Epidural Abscess",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Upper Respiratory tract infections",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Acute and Chronic sinusitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Otitis media and externa",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Common cold",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Pharyngitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Epiglottitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Deep infections in head and neck",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Eye infections",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Periorbital cellulitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Conjunctivitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Viral Conjunctivitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Bacterial Conjunctivitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Allergic Conjunctivitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Keratitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Endophthalmitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Chorioretinitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Orbital infections",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Lower respiratory tract infections",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Bronchitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Pneumonia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Bacterial (not mycobacterial) Pneumonia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Fungal Pneumonia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Viral Pneumonia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Ventilator associated Pneumonia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Lung Abscess",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Tuberculosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Screening and treating of latent TB",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Pulmonary TB",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Empyema",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Endocarditis and other cardiovascular infections",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Endocarditis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Diagnosis of Endocarditis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "prophylaxis for Endocarditis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Pericardial infections",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Hepatico-biliary Infections",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Viral Hepatitis – risk factors and testing for",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Hepatitis A",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Hepatitis B",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Hepatitis C",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Other Viral hepatitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Liver Abscess",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Cholecystitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Cholangitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Enteric Infections",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Esophagitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Candida",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Viral Candida",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Gastroenteritis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Viral Gastroenteritis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Bacterial and food-borne Gastroenteritis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Anti-biotic associated Gastroenteritis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Infections of pancreas and pancreatic abscess",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Intraabdominal abscess (other than liver or pancreas)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "HIV and AIDS",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Transmission of HIV",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Laboratory Diagnosis and staging HIV and AIDS",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Common/Specific Opportunistic Infections HIV and AIDS",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "PCP pneumonia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Candida esophagitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "PML/JC Virus",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Toxoplasmosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "MAC",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Oral hairy Leukoplakia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Kaposi’s Sarcoma",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Hematologic complications of HIV",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Lymphoma assciated with HIV and AIDS",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Neurologic complications of HIV",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Cryptococcal meningitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "AIDS dementia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Ophthalmologic complications of HIV",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "CMV retinitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Pulmonary complications of HIV (not PCP or lobar pneumonia)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Basic management principles of HIV/AIDS",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Common/First line HAART",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Prophylaxis for PCP, Toxo, and MAC",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Oncologic complications of HIV",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Rheumatologic complications of HIV",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Metabolic complications of HIV",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Routine testing/health maintenance for long-term follow-up of HIV patients",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Sexually Transmitted Diseases and Reproductive organ infections",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Urethritis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Genital Ulcers",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Male Genital Ulcers",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Female Genital Ulcers",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Vulvovaginitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Cervicitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Epididymitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Salpingitis and Pelvic Inflammatory Disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Syphillis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "HPV and anogenital warts",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Urinary Tract infections",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Asymptomatic bacteriuria",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Cystitis and Pyelonephritis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Perinephric Abscess",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Prostatitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Infectious Arthritis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Osteomyelitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Bacteremia and Sepsis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Fever and Neutropenia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "SIRS and Septic Shock",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Toxic shock syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Neuroleptic Malignant syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Rheumatic Fever",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Procedural and Device related infections",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Nosocomial Infections",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Infection control principles and isolation regulations",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Needle stick injury and postexposure prophylaxis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Immunizations",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Indications based on age and co-morbidities",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Prevention of infectious disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Immunization",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Endocarditis prophylaxis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Prevention of TB, treatment of latent TB",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Infection control/isolation",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Transmission of HIV",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Needlestick injury and postexposure prophylaxis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Specific Causative Organisms",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Viral disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Prion disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Chlamydial diseases",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Mycoplasmal disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Rickettsioses and ehrlichioses",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Bacterial disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Gram-positive",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Gram-negative",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Anaerobic",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Mycobacterial and Non-pulmonary TB",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Mycoses",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Protozoal and Helminthic diseases",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Ectoparasites",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Antimicrobial Therapy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Basic classes of antibiotics, specific antibiotics within classes",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Mechanism of action",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Use of laboratory antibiogram",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Common toxicities",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Targeted antibiotic therapy for specific organisms",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Epidemiology of antimicrobial resistance",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Indications for pre-operative and prophylactic antibiotics",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Public Health and Bioterrorism",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Global outbreaks",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Pandemic Flu",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Infectious Disease",
+   "name": "Most common biologic agents of bioterrorism",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ }
+]
