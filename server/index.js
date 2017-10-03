@@ -6,7 +6,7 @@ var path = require('path');
 // Priority serve any static files.
 
 // adding Mongo as database and then loading model
-const config = require('./config/indexLocal.json');
+const config = require('./config/index.json');
 require('./models/index').connect(config.dbUri);
 
 const app = express();

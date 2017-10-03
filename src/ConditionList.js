@@ -229,8 +229,9 @@ class App extends Component {
 
   render() {
     var listItem = (element) => {
+      var masterUser = "59d3ac5c1f318e150a601c63";
       if (this.hasPosts(element)) {
-        if (element._creator === "59d1da65c81b6b06136536d6") {
+        if (element._creator === masterUser) {
           return <ListItem withData onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem>
         } else if (element._creator === this.props.userID) {
           return <ListItemColor didCreate withData onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItemColor>
@@ -238,7 +239,7 @@ class App extends Component {
           return <ListItemColor withData onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItemColor>
         }
       } else {
-        if (element._creator === "59d1da65c81b6b06136536d6") {
+        if (element._creator === masterUser) {
           return <ListItem onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem>
         } else if (element._creator === this.props.userID) {
           return <ListItemColor didCreate onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItemColor>
