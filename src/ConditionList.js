@@ -5,6 +5,7 @@ import { fetchDiseasesWithCondition, updateDisease, saveDisease, tempDisease } f
 import ConditionListLearningForm from './ConditionListLearningForm';
 import ConditionListLearningDisplay from './ConditionListLearningDisplay';
 import lodashFindIndex from 'lodash.findindex';
+import lodashIncludes from 'lodash.includes';
 
 const DeleteButton = styled.button`
   border-radius: 3px;
@@ -280,7 +281,7 @@ class App extends Component {
   </div>)
   : <div></div>
 
-    var searchNames = this.props.diseases.length ? this.props.diseases.filter(x => x.name.toLowerCase().includes(this.state.searchInputBox.toLowerCase())).map((element) =>
+var searchNames = this.props.diseases.length ? this.props.diseases.filter(x => lodashIncludes(x.name.toLowerCase(), this.state.searchInputBox.toLowerCase())).map((element) =>
         <div key={element._id}>
           <ListWrapper>
           {element.hidden ? "" :
