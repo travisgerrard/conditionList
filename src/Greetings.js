@@ -6,7 +6,7 @@ class Greetings extends Component {
     return (
       <div>
         <h1>Welcome to the default homepage</h1>
-        <p>Sign Up or Login to get started!</p>
+        <p>Sign Up and then Login to get started!</p>
       </div>
     );
   }

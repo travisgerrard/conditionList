@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { fetchDiseasesWithCondition, updateDisease, saveDisease, tempDisease } from './actions/diseaseActions';
 import ConditionListLearningForm from './ConditionListLearningForm';
 import ConditionListLearningDisplay from './ConditionListLearningDisplay';
+
 const DeleteButton = styled.button`
   border-radius: 3px;
   padding: 0.25em 1em;
@@ -31,11 +32,17 @@ const ListTitle = styled.h1`
 
 const ListItem = styled.p`
   cursor: pointer;
-
   font-family: Georgia;
   font-size: 20px;
-  padding-bottom: 2.5px;
+  margin-bottom: 1px;
   font-weight: ${props => props.withData ? 'bold' : 'normal'};
+`;
+
+// Color coded user created content
+// Green if you create the dx
+// Blue if you did not create dx
+const ListItemColor = ListItem.extend`
+	color: ${props => props.didCreate ? 'green' : 'blue'};
 `;
 
 const ListWrapper = styled.section`
@@ -65,7 +72,6 @@ const SelectedInput = styled.input`
   font-family: Georgia;
   font-size: 18px;
   border: 2px solid Gainsboro;
-
 `;
 
 const SelectedTextArea = styled.textarea`
@@ -77,6 +83,10 @@ const SelectedTextArea = styled.textarea`
   font-family: Georgia;
   font-size: 18px;
   resize: both;
+`;
+
+const ConditionListLearningFormStyle = styled.section`
+  display: block;
 `;
 
 class App extends Component {
@@ -133,7 +143,7 @@ class App extends Component {
     // this.props.updateDisease(element);
   }
 
-  deleteDisease = (element, e) => {
+  deleteDisease = (element) => {
     //eslint-disable-next-line
     if (confirm(`Are you sure you want to delete "${element.name}"`) == true) {
       element.hidden = true;
@@ -143,14 +153,11 @@ class App extends Component {
 
   handleClickAddConditionBox = (e) => {
     if (this.state.addConditionInputBox === "") return;
-    const diseaseData = this.props.diseases;
-    const lastElementInArray = diseaseData[diseaseData.length - 1];
     var newDisease = {
-      Catagory: this.state.specialty,
+      catagory: this.state.specialty,
       name: this.state.addConditionInputBox,
-      preceptor: "",
-      date: "",
-      selected: true
+      hidden: false,
+      _creator: this.props.userID
     };
     this.props.saveDisease(newDisease);
     this.setState({
@@ -179,14 +186,24 @@ class App extends Component {
       _creator: this.props.userID,
       preceptor: preceptor,
       date: date,
-      whatWasLearned: whatWasLearned
+      whatWasLearned: whatWasLearned,
+      postHidden: false
     }
     element.post.push(post);
     this.props.updateDisease(element);
   }
 
+  updatePostClicked = (element, postID, preceptor, date, whatWasLearned) => {
+    var foundIndex = element.post.findIndex(x => x._id === postID);
+    element.post[foundIndex].preceptor = preceptor;
+    element.post[foundIndex].date = date;
+    element.post[foundIndex].whatWasLearned = whatWasLearned;
+    this.props.updateDisease(element);
+  }
+
   hasPosts = (element) => {
-    var foundIndex = element.post.findIndex(x => x._creator == this.props.userID);
+    var foundArray = element.post.filter(x => x._creator === this.props.userID);
+    var foundIndex = foundArray.findIndex(x => x.postHidden !== true);
     if (foundIndex >= 0) {
       return true;
     } else {
@@ -194,25 +211,72 @@ class App extends Component {
     }
   }
 
+  canDelete = (element) => {
+    var foundIndex = element.post.findIndex(x => x._creator !== this.props.userID);
+    if (foundIndex < 0 && element._creator === this.props.userID) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  deletePost = (element, postID) => {
+    var foundIndex = element.post.findIndex(x => x._id === postID);
+    console.log(foundIndex);
+    element.post[foundIndex].postHidden = true;
+    this.props.updateDisease(element);
+  }
+
   render() {
-    var diseaseNames = this.props.diseases.length ? this.props.diseases.map((element) =>
-        <div key={element._id}>
-          <ListWrapper>
-          {element.hidden ? "" :
-            this.hasPosts(element) ?
-                <ListItem withData onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem> :
-                <ListItem onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem> }
-          {this.isSelected(element) && !element.hidden ?
-            <ConditionListLearningForm addClicked={this.addPostClicked} element={element} />
-            :
-              "" }
-          {this.hasPosts(element) && this.isSelected(element) ? element.post.filter(x => x._creator == this.props.userID).map((post) =>
-            <ConditionListLearningDisplay key={post._id} preceptor={post.preceptor} date={post.date} whatWasLearned={post.whatWasLearned} />)
-            :
-            "" }
-          </ListWrapper>
-        </div>
-      ) : <div></div>
+    var listItem = (element) => {
+      if (this.hasPosts(element)) {
+        if (element._creator === "59d1da65c81b6b06136536d6") {
+          return <ListItem withData onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem>
+        } else if (element._creator === this.props.userID) {
+          return <ListItemColor didCreate withData onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItemColor>
+        } else {
+          return <ListItemColor withData onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItemColor>
+        }
+      } else {
+        if (element._creator === "59d1da65c81b6b06136536d6") {
+          return <ListItem onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem>
+        } else if (element._creator === this.props.userID) {
+          return <ListItemColor didCreate onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItemColor>
+        } else {
+          return <ListItemColor onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItemColor>
+        }
+      }
+    }
+
+    var diseaseNames = this.props.diseases.length
+  ? this.props.diseases.map((element) => <div key={element._id}>
+    <ListWrapper>
+      {element.hidden ? "" : listItem(element)}
+      {this.hasPosts(element) && this.isSelected(element) && !element.hidden
+        ? element.post.filter(x => x._creator == this.props.userID).map((post) => post.postHidden
+          ? ""
+          : <ConditionListLearningFormStyle>
+            <ConditionListLearningDisplay
+              key={post._id}
+              preceptor={post.preceptor}
+              date={post.date}
+              whatWasLearned={post.whatWasLearned}
+              updatePostClicked={this.updatePostClicked}
+              deletePost={this.deletePost}
+              element={element}
+              postID={post._id}/>
+          </ConditionListLearningFormStyle>)
+        : ""}
+      {this.isSelected(element) && !element.hidden
+        ? <ConditionListLearningForm
+          addClicked={this.addPostClicked}
+          showDeleteButton={this.canDelete(element)}
+          deleteDisease={this.deleteDisease}
+          element={element}/>
+        : ""}
+    </ListWrapper>
+  </div>)
+  : <div></div>
 
     var searchNames = this.props.diseases.length ? this.props.diseases.filter(x => x.name.toLowerCase().includes(this.state.searchInputBox.toLowerCase())).map((element) =>
         <div key={element._id}>
@@ -253,7 +317,6 @@ class App extends Component {
 
     return (
       <div>
-        <br/>
         <ListTitle>{this.state.specialty}</ListTitle>
         {searchBox()}
          {this.state.searchInputBox === '' ? diseaseNames : searchNames}

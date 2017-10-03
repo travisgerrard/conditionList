@@ -17,6 +17,7 @@ router.get('/:identifier', (req, res) => {
 });
 
 router.post('/', (req, res) => {
+
   const user = User(req.body);
   console.log(req.body);
   user.save((err, savedUser) => {
@@ -24,17 +25,22 @@ router.post('/', (req, res) => {
       console.error(err);
       return res.status(500).json({ errors: {global: "something went wrong"} });
     }
-  //   for (let item of master) {
-  //     item._creator = savedUser._id;
-  //     console.log(item);
-  //     var disease = Condition(item);
-  //     disease.save((err, docs) => {
-  //       if (err) {
-  //         console.error(err);
-  //         //return res.status(500).json({ errors: {global: "something went wrong"} });
-  //       }
-  //   });
-  // }
+    User.count({}, function(err, count){ //Create master on first user signup only
+        if (count === 1) {
+          for (let item of master) {
+            item._creator = savedUser._id;
+            console.log(item);
+            var disease = Condition(item);
+            disease.save((err, docs) => {
+              if (err) {
+                console.error(err);
+                //return res.status(500).json({ errors: {global: "something went wrong"} });
+              }
+            });
+          }
+        }
+    });
+
     console.log(savedUser._id);
     return res.json({ success: true });
   });

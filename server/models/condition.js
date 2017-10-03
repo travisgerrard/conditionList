@@ -12,7 +12,8 @@ const ConditionSchema = new mongoose.Schema({
     _creator: { type: mongoose.Schema.Types.ObjectId, ref: 'User'  },
     preceptor: String,
     date: String,
-    whatWasLearned: String
+    whatWasLearned: String,
+    postHidden: Boolean
   } ],
   hidden: Boolean,
   _creator : { type: mongoose.Schema.Types.ObjectId, ref: 'User' }

@@ -46,6 +46,15 @@ const AddButton = styled.button`
   border: 2px solid gree;
 `;
 
+const DeleteButton = styled.button`
+  border-radius: 3px;
+  padding: 0.25em 1em;
+  margin: 1em;
+  background: red;
+  color: white;
+  border: 2px solid red;
+`;
+
 class ConditionListLearningForm extends Component {
 
   state = {
@@ -55,18 +64,9 @@ class ConditionListLearningForm extends Component {
   }
 
   handleChange = (e) => {
-    // if (!!this.state.errors[e.target.name]) {
-    //   let errors = Object.assign({}, this.state.errors);
-    //   delete errors[e.target.name];
-    //   this.setState({
-    //     [e.target.name]: e.target.value,
-    //     errors
-    //   });
-    // } else {
       this.setState({
         [e.target.name]: e.target.value
       });
-    // }
   }
 
   handleAddPostPressed = (e) => {
@@ -77,6 +77,11 @@ class ConditionListLearningForm extends Component {
       date: '',
       whatWasLearned: ''
     });
+  }
+
+  deleteListItem = (e) => {
+    console.log(`Delete pressed`);
+    this.props.deleteDisease(this.props.element);
   }
 
   render() {
@@ -100,7 +105,7 @@ class ConditionListLearningForm extends Component {
             onChange={this.handleChange}
           />
         <br />
-        <SelectedLabel>Learned</SelectedLabel>
+        <SelectedLabel>Learning Points</SelectedLabel>
         <SelectedTextArea rows="6" cols="50"
           name="whatWasLearned"
           id="whatWasLearned"
@@ -108,6 +113,7 @@ class ConditionListLearningForm extends Component {
           onChange={this.handleChange}/>
         <br />
         <AddButton onClick={this.handleAddPostPressed}>Add</AddButton>
+        {this.props.showDeleteButton ? <DeleteButton onClick={this.deleteListItem}>Delete</DeleteButton> : ""}
       </InputWrapper>
       </div>
     )

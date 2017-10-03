@@ -32,11 +32,18 @@ class App extends Component {
 
     const userLinks = (
       <div className="right menu">
-        <ActiveLink activeOnlyWhenExact to="/hemeonc" label="Heme-Onc" />
-        <ActiveLink activeOnlyWhenExact to="/derm" label="Derm" />
-        <ActiveLink activeOnlyWhenExact to="/dermTerm" label="Derm-Term" />
-        <ActiveLink activeOnlyWhenExact to="/logout" label="Logout" />
-      </div>
+        <div className="ui compact menu">
+          <div className="ui simple dropdown item">
+            Categories
+            <div className="menu">
+              <ActiveLink activeOnlyWhenExact to="/hemeonc" label="Heme-Onc" />
+              <ActiveLink activeOnlyWhenExact to="/derm" label="Derm" />
+            </div>
+          </div>
+        </div>
+      <ActiveLink activeOnlyWhenExact to="/dermTerm" label="Derm-Term" />
+      <ActiveLink activeOnlyWhenExact to="/logout" label="Logout" />
+    </div>
     );
 
     const guestLinks = (
@@ -66,6 +73,7 @@ class App extends Component {
         <Route path="/login" component={LoginPage} />
         <Route path="/hemeonc" render={()=> isAuthenticated ? <ConditionList pageTitle="HemeOnc"/> : <GreetingsNotLoggedIn />} />
         <Route path="/derm" render={()=> isAuthenticated ? <ConditionList pageTitle="Derm"/> : <GreetingsNotLoggedIn />} />
+        <Route path="/cardiology" render={()=> isAuthenticated ? <ConditionList pageTitle="Cardiology"/> : <GreetingsNotLoggedIn />} />
         <Route path="/dermTerm" component={requireAuth(DermTerm)} />
         <Route path="/logout" component={requireAuth(Logout)} />
 
