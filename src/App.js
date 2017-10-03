@@ -6,12 +6,12 @@ import { Link, Route, withRouter } from 'react-router-dom';
 import { logout } from './actions/authActions';
 import requireAuth from './utils/requireAuth';
 import ConditionList from './ConditionList.js';
-import ConditionListDerm from './ConditionListDerm.js';
 import DermTerm from './DermTerm.js';
 import GreetingsNotLoggedIn from './Greetings';
 import GreetingsLoggedIn from './GreetingsLoggedIn';
 import SignUpPage from './signup/SignupPage';
 import LoginPage from './login/LoginPage';
+import Logout from './Logout';
 
 const ActiveLink = ({ label, to, activeOnlyWhenExact }) => (
   <Route path={to} exact={activeOnlyWhenExact} children={({ match }) => (
@@ -32,11 +32,18 @@ class App extends Component {
 
     const userLinks = (
       <div className="right menu">
-        <ActiveLink activeOnlyWhenExact to="/hemeonc" label="Heme-Onc" />
-        <ActiveLink activeOnlyWhenExact to="/derm" label="Derm" />
-        <ActiveLink activeOnlyWhenExact to="/dermTerm" label="Derm-Term" />
-        <a className="item" href="logsOut" onClick={this.logout}>Logout</a>
-      </div>
+        <div className="ui compact menu">
+          <div className="ui simple dropdown item">
+            Categories
+            <div className="menu">
+              <ActiveLink activeOnlyWhenExact to="/hemeonc" label="Heme-Onc" />
+              <ActiveLink activeOnlyWhenExact to="/derm" label="Derm" />
+            </div>
+          </div>
+        </div>
+      <ActiveLink activeOnlyWhenExact to="/dermTerm" label="Derm-Term" />
+      <ActiveLink activeOnlyWhenExact to="/logout" label="Logout" />
+    </div>
     );
 
     const guestLinks = (
@@ -50,6 +57,7 @@ class App extends Component {
       <div className="ui container">
         <div className="ui mini menu">
           <ActiveLink activeOnlyWhenExact to="/" label="Home" />
+          {this.props.auth.user.username}
           { isAuthenticated ? userLinks : guestLinks }
         </div>
 
@@ -60,11 +68,14 @@ class App extends Component {
               <GreetingsNotLoggedIn />
             )
         )}/>
+
         <Route path="/signup" component={SignUpPage} />
         <Route path="/login" component={LoginPage} />
-        <Route path="/hemeonc" component={requireAuth(ConditionList)} />
-        <Route path="/derm" component={requireAuth(ConditionListDerm)} />
+        <Route path="/hemeonc" render={()=> isAuthenticated ? <ConditionList pageTitle="HemeOnc"/> : <GreetingsNotLoggedIn />} />
+        <Route path="/derm" render={()=> isAuthenticated ? <ConditionList pageTitle="Derm"/> : <GreetingsNotLoggedIn />} />
+        <Route path="/cardiology" render={()=> isAuthenticated ? <ConditionList pageTitle="Cardiology"/> : <GreetingsNotLoggedIn />} />
         <Route path="/dermTerm" component={requireAuth(DermTerm)} />
+        <Route path="/logout" component={requireAuth(Logout)} />
 
       </div>
     );

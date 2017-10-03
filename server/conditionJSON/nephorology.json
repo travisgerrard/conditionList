@@ -1,0 +1,758 @@
+[
+ {
+   "catagory": "Nephrology",
+   "name": "Acute renal failure",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hypotension or shock·induced acute renal failure",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Toxic injury - renal failure",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Radiocontrast dye - renal failure",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Medication-induced renal failure",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Myeloma-associated renal failure",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Acute interstitial nephritis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Rhabdomyolysis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hepatorenal syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Disseminated atheroembolism (cholesterol emboli syndrome)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Chronic renal failure (not specific disorders listed below)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Renal dialysis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Renal transplantation",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Strategies to prevent progression of renal disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Glomerular disorders",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Systemic lupus erythematosus - glomerulonephritis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Minimal change disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Focal and segmenlal glomerular sclerosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Membranous glomerulonephritis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Membranoproliferative glomerulonephritis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hepatitis C",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "IgA nephropathy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Goodpasture's syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "eGFR/true GFR discordance",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hypertension",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Essential hypertension",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Primary aldosteronism and mineralocorticoid excess",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Renal artery stenosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Water and electrolyte balance",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hypernatremia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Diabetes insipidus",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hyponatremia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hyponatremia from hypovolemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hyponatremia from SIADH",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "SIADH from tumor",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "SIADH from cause other than tumor",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hyponatremia from edematous disorders",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hypokalemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Drug-induced hypokalemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": " Mineralocortacoid excess",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Bartter's syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hypokalemia from vomiting or diarrhea",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hyperkalemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hyperkalemia from renal failure",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hyperkalemia from acidosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hyperkalemia from cell lysis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Drug-induced hyperkalemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Adrenal insufficiency",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hypercalcemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Primary hyperparathyroidism",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Malignancy-associated hypercalcemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Sarcoidosis and hypercalcemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hypocalcemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Vitamin D deficiency and osteomalacia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hyperphosphatemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hypophosphatemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Hypermagnesemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": " Hypomagnesemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": " Metabolic acidosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Elevated anion gap",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Diabetic ketoacidosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Lactic acidosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Normal anion gap metabolic acidosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Renal tubular acidosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Normal anion gap metabolic acidosis from diarrhea",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": " Metabolic alkalosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Bartter's syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Volume-depletion associated metabolic alkalosis .",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Mineralocorticoid excess",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Respiratory acidosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Respiratory alkalosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Mixed acid-base disturbance",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Vasculitis and the kidney",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Leukocytoclastic vasculitis (see also Rheumatology)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Henoch·Schoenlein purpura",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Antineutrophil cyloplasrnic antibody (ANCA}-associated vasculitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Wegener's granulomatosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Microscopic polyangiitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Other kidney disorders",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Renal vein thrombosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Obstructive uropathy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Diabetic nephropathy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "Cystic kidney disease (polycystic, medullary sponge, medullary cystic)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "Nephrology",
+   "name": "End of life nephrology/Questions of dialysis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ }
+]

@@ -1,4 +1,4 @@
-/* 1 */
+/* A store of the old database, before deleting... */
 {
     "_id" : ObjectId("59b9a42412f9ce3ee4f52760"),
     "id" : 1,
@@ -1017,6 +1017,7 @@
     "_id" : ObjectId("59b9a42412f9ce3ee4f527ae"),
     "id" : 79,
     "name" : "Easy Bruising",
+    "catagory" : "HemeOnc",
     "preceptor" : "Wilfong",
     "date" : "09/08/2017",
     "selected" : true,
@@ -1029,6 +1030,7 @@
     "_id" : ObjectId("59b9a42412f9ce3ee4f527af"),
     "id" : 80,
     "name" : "Test",
+    "catagory" : "HemeOnc",
     "preceptor" : "test",
     "date" : "",
     "selected" : true,
@@ -1040,6 +1042,7 @@
     "_id" : ObjectId("59b9a42412f9ce3ee4f527b0"),
     "id" : 81,
     "name" : "warm autoimmune hemolytic anemia",
+    "catagory" : "HemeOnc",
     "preceptor" : "",
     "date" : "",
     "selected" : true,
@@ -1051,6 +1054,7 @@
     "_id" : ObjectId("59b9a42412f9ce3ee4f527b1"),
     "id" : 82,
     "name" : "Warm autoimmune hemolytic anemia",
+    "catagory" : "HemeOnc",
     "preceptor" : "O'Malley",
     "date" : "09/05/2017",
     "selected" : false,
@@ -1062,6 +1066,7 @@
     "_id" : ObjectId("59b9a42412f9ce3ee4f527b2"),
     "id" : 83,
     "name" : "Easy bruising",
+    "catagory" : "HemeOnc",
     "preceptor" : "Wilfong",
     "date" : "09/08/2017",
     "selected" : false,
@@ -1073,6 +1078,7 @@
     "_id" : ObjectId("59b9a42412f9ce3ee4f527b3"),
     "id" : 84,
     "name" : "Duodenal adenocarcinoma",
+    "catagory" : "HemeOnc",
     "preceptor" : "Picozzi",
     "date" : "09/11/2017",
     "selected" : false
@@ -1083,6 +1089,7 @@
     "_id" : ObjectId("59b9a42412f9ce3ee4f527b4"),
     "id" : 85,
     "name" : "High risk breast findings",
+    "catagory" : "HemeOnc",
     "preceptor" : "O' Malley",
     "date" : "09/05/2017",
     "selected" : false,
@@ -1105,6 +1112,7 @@
     "_id" : ObjectId("59b9a42412f9ce3ee4f527b6"),
     "id" : 87,
     "name" : "Mantle Cell Lymphoma",
+    "catagory" : "HemeOnc",
     "preceptor" : "O'Malley",
     "date" : "09/12/2017",
     "selected" : false,
@@ -1129,6 +1137,7 @@
     "_id" : ObjectId("59bff84b7104051d63d88b47"),
     "id" : 89,
     "name" : "Cholangiocarcinoma",
+    "catagory" : "HemeOnc",
     "preceptor" : "Picozzi",
     "date" : "9/18/2017",
     "selected" : false,
@@ -1141,9 +1150,1307 @@
     "_id" : ObjectId("59c2d5052b96f1314fa33159"),
     "id" : 90,
     "name" : "Iron deficiency anemia in setting of chronic liver disease",
+    "catagory" : "HemeOnc",
     "preceptor" : "Dr. Lin",
     "date" : "09/19/2017",
-    "selected" : false,
+    "selected" : true,
     "__v" : 0,
     "whatWasLearned" : "Seen in consult. 25 AA M p/w Hg 5.6. Ferratin was 14 in the setting of chronic liver disease. "
+}
+
+/* 91 */
+{
+    "_id" : ObjectId("59c942760586404d7602514c"),
+    "id" : 0,
+    "catagory" : "Derm",
+    "name" : "Rosacea",
+    "preceptor" : "Dr. Zhang",
+    "date" : "09/25/2017 10am",
+    "selected" : false,
+    "__v" : 0,
+    "whatWasLearned" : "Rosacea\n\nTypes:\nCommon:\nErythrotelangiectatic rosacea\nSx: Flushing\nTx: Brimonidine (topical) ->  constricts BV, Laser treatment\nPapulopustular rosacea \nSx: Acne\nTx: \nTopical: Metro cream, Azelaic acid, Ivermectin\nOral: Doxy or minocycline\n\nTopicals can take a couple months to work\n\nRare:\nPhymatous rosacea\nSx: Nasal changes\nOcular rosacea \nSx: Dry eyes, sand in eyes\nTx: Referral to opthomology to dx.\n\nTriggers:\nAlcohol, Caffeine, UV, Sulfa\n"
+}
+
+/* 92 */
+{
+    "_id" : ObjectId("59c973590586404d7602514d"),
+    "id" : 1,
+    "catagory" : "Derm",
+    "name" : "Pigmented purpuric dermatoses (capillaritis)",
+    "preceptor" : "Zhang 09/25/2017 1:30",
+    "date" : "09/25/2017",
+    "selected" : false,
+    "__v" : 0,
+    "whatWasLearned" : "cayenne pepper macule\n\nCapillary leaks from vessle\nTx: Exercise, compression stalkings. Steroids if itchy.\n"
+}
+
+/* 93 */
+{
+    "_id" : ObjectId("59c973a70586404d7602514e"),
+    "id" : 2,
+    "catagory" : "Derm",
+    "name" : "Acne",
+    "preceptor" : "Zhang",
+    "date" : "09/25/2017 1:30",
+    "selected" : false,
+    "__v" : 0,
+    "whatWasLearned" : "Tx:\nBenzoyl peroxide / Clindamycin cream at the same time for 2 months. Topical retinoid if smaller area (face, not so much back)\nOral doxy or minocycline\nIsotretinoin."
+}
+
+/* 94 */
+{
+    "_id" : ObjectId("59c979ed0586404d7602514f"),
+    "id" : 3,
+    "catagory" : "Derm",
+    "name" : "Pyoderma Gangrenosum",
+    "preceptor" : "Zhang",
+    "date" : "09/25/2017 2:15",
+    "selected" : false,
+    "__v" : 0,
+    "whatWasLearned" : "Tx:\nIVIG\n- cont cyclosporine at 100mg BID \n- cont cellcept at 1500mmg BID \n- cont clobetasol ointment BID Mon-Fri to the ulcer \n- she has mupirocin ointment to use as needed to prevent infection.  "
+}
+
+/* 95 */
+{
+    "_id" : ObjectId("59c99af80586404d76025150"),
+    "id" : 4,
+    "catagory" : "Derm",
+    "name" : "Confluent and reticulated papillomatosis",
+    "preceptor" : "Zhang",
+    "date" : "09/25/2017 3:30",
+    "selected" : false,
+    "__v" : 0
+}
+
+/* 96 */
+{
+    "_id" : ObjectId("59cac9480586404d76025151"),
+    "id" : 5,
+    "catagory" : "Derm",
+    "name" : "Hypersensitivity eruption",
+    "preceptor" : "Chong",
+    "date" : "09/26/2017 10am",
+    "selected" : false,
+    "__v" : 0,
+    "whatWasLearned" : "Treat with antihistamine and steroid"
+}
+
+/* 97 */
+{
+    "_id" : ObjectId("59caca340586404d76025152"),
+    "id" : 6,
+    "catagory" : "Derm",
+    "name" : "H/o Malignant Melanoma",
+    "preceptor" : "Chong",
+    "date" : "09/26/2017",
+    "selected" : false,
+    "__v" : 0,
+    "whatWasLearned" : "Excised from LE 1 year ago w/o e/o recurrence\n\nq3 month f/u for skin checks for 2 years"
+}
+
+/* 98 */
+{
+    "_id" : ObjectId("59cd2b6aaf033b720bfd1839"),
+    "id" : 7,
+    "catagory" : "Derm",
+    "name" : "test",
+    "preceptor" : "",
+    "date" : "",
+    "selected" : false,
+    "_creator" : ObjectId("59c2d2d42b96f1314fa33158"),
+    "__v" : 0
+}
+
+/* 99 */
+{
+    "_id" : ObjectId("59cd34df26f18e73851dd682"),
+    "id" : 8,
+    "catagory" : "Derm",
+    "name" : "Nummular eczema",
+    "preceptor" : "Masters",
+    "date" : "09/28/2017",
+    "selected" : false,
+    "_creator" : ObjectId("59c2d2d42b96f1314fa33158"),
+    "__v" : 0,
+    "whatWasLearned" : "Like atopic dermaitis for adults\n\nTx: Phototherapy or methotrexate\n\nhttps://www.dermnetnz.org/topics/discoid-eczema/"
+}
+
+/* 100 */
+{
+    "_id" : ObjectId("59cdc0615bc4d377d8434950"),
+    "name" : "test",
+    "preceptor" : "",
+    "date" : "",
+    "selected" : false,
+    "__v" : 0
+}
+
+/* 101 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0d2"),
+    "id" : 1,
+    "catagory" : "HemeOnc",
+    "name" : "Lung cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 102 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0d3"),
+    "id" : 2,
+    "catagory" : "HemeOnc",
+    "name" : "Breast cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 103 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0d4"),
+    "id" : 3,
+    "catagory" : "HemeOnc",
+    "name" : "Neoplasms of the head and neck",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 104 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0d5"),
+    "id" : 4,
+    "catagory" : "HemeOnc",
+    "name" : "Thyroid nodules and thyroid cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 105 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0d6"),
+    "id" : 5,
+    "catagory" : "HemeOnc",
+    "name" : "Neoplasms of the head and neck (except thyroid cancer)",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 106 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0d7"),
+    "id" : 6,
+    "catagory" : "HemeOnc",
+    "name" : "Gastrointestinal or hepatic cancer. .'",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 107 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0d8"),
+    "id" : 7,
+    "catagory" : "HemeOnc",
+    "name" : "Esophageal carcinoma",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 108 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0d9"),
+    "id" : 8,
+    "catagory" : "HemeOnc",
+    "name" : "Stomach cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 109 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0da"),
+    "id" : 9,
+    "catagory" : "HemeOnc",
+    "name" : "Colorectal cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 110 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0db"),
+    "id" : 10,
+    "catagory" : "HemeOnc",
+    "name" : "Pancreatic: carcinoma (except pancreatic endocrine tumors)",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 111 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0dc"),
+    "id" : 11,
+    "catagory" : "HemeOnc",
+    "name" : "Hepatocellular carcinoma",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 112 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0dd"),
+    "id" : 12,
+    "catagory" : "HemeOnc",
+    "name" : "Urologic cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 113 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0de"),
+    "id" : 13,
+    "catagory" : "HemeOnc",
+    "name" : "Renal cell carcinoma",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 114 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0df"),
+    "id" : 14,
+    "catagory" : "HemeOnc",
+    "name" : "Bladder carcinoma",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 115 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0e0"),
+    "id" : 15,
+    "catagory" : "HemeOnc",
+    "name" : "Prostate carcinoma",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 116 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0e1"),
+    "id" : 16,
+    "catagory" : "HemeOnc",
+    "name" : "Testicular carcinoma/tumors",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 117 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0e2"),
+    "id" : 17,
+    "catagory" : "HemeOnc",
+    "name" : "Gynecologic cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 118 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0e3"),
+    "id" : 18,
+    "catagory" : "HemeOnc",
+    "name" : "Ovarian cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 119 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0e4"),
+    "id" : 19,
+    "catagory" : "HemeOnc",
+    "name" : "Endometrial cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 120 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0e5"),
+    "id" : 20,
+    "catagory" : "HemeOnc",
+    "name" : "Cervical cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 121 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0e6"),
+    "id" : 21,
+    "catagory" : "HemeOnc",
+    "name" : "CNS tumors",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 122 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0e7"),
+    "id" : 22,
+    "catagory" : "HemeOnc",
+    "name" : "Brain tumors",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 123 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0e8"),
+    "id" : 23,
+    "catagory" : "HemeOnc",
+    "name" : "Spinal cord tumors and compression",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 124 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0e9"),
+    "id" : 24,
+    "catagory" : "HemeOnc",
+    "name" : "Carcinomatous meningitis",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 125 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0ea"),
+    "id" : 25,
+    "catagory" : "HemeOnc",
+    "name" : "Skin cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 126 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0eb"),
+    "id" : 26,
+    "catagory" : "HemeOnc",
+    "name" : "Squamous cell carcinoma of the skin",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 127 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0ec"),
+    "id" : 27,
+    "catagory" : "HemeOnc",
+    "name" : "Basal cell carcifloma of the skin",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 128 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0ed"),
+    "id" : 28,
+    "catagory" : "HemeOnc",
+    "name" : "Melanoma and nevi",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 129 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0ee"),
+    "id" : 29,
+    "catagory" : "HemeOnc",
+    "name" : "Mycosis fungoides",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 130 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0ef"),
+    "id" : 30,
+    "catagory" : "HemeOnc",
+    "name" : "Hematologic malignancies",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 131 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0f0"),
+    "id" : 31,
+    "catagory" : "HemeOnc",
+    "name" : "Chronic leukemias",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 132 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0f1"),
+    "id" : 32,
+    "catagory" : "HemeOnc",
+    "name" : "Chronic myelogenous leukemia",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 133 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0f2"),
+    "id" : 33,
+    "catagory" : "HemeOnc",
+    "name" : "Chronic lymphocytic leukemia",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 134 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0f3"),
+    "id" : 34,
+    "catagory" : "HemeOnc",
+    "name" : "Other chronic leukemia (hairy cell/ etc.)",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 135 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0f4"),
+    "id" : 35,
+    "catagory" : "HemeOnc",
+    "name" : "Acute leukemia",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 136 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0f5"),
+    "id" : 36,
+    "catagory" : "HemeOnc",
+    "name" : "Acute lymphocytic leukemia",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 137 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0f6"),
+    "id" : 37,
+    "catagory" : "HemeOnc",
+    "name" : "Acute myelogenous leukemia",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 138 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0f7"),
+    "id" : 38,
+    "catagory" : "HemeOnc",
+    "name" : "Non-Hodgkin's lymphoma",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 139 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0f8"),
+    "id" : 39,
+    "catagory" : "HemeOnc",
+    "name" : "Hodgkin's disease",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 140 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0f9"),
+    "id" : 40,
+    "catagory" : "HemeOnc",
+    "name" : "Plasma cell disorder",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 141 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0fa"),
+    "id" : 41,
+    "catagory" : "HemeOnc",
+    "name" : "Multiple myeloma",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 142 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0fb"),
+    "id" : 42,
+    "catagory" : "HemeOnc",
+    "name" : "Benign monoclonal gammopathy",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 143 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0fc"),
+    "id" : 43,
+    "catagory" : "HemeOnc",
+    "name" : "Waldenstrom:s macroglobulinemia",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 144 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0fd"),
+    "id" : 44,
+    "catagory" : "HemeOnc",
+    "name" : "Amyloidosis (AL and other variants)",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 145 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0fe"),
+    "id" : 45,
+    "catagory" : "HemeOnc",
+    "name" : "Amyloidosis and the heart (also in cardiovascular)",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 146 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb0ff"),
+    "id" : 46,
+    "catagory" : "HemeOnc",
+    "name" : "Cancer prevention and screening",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 147 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb100"),
+    "id" : 47,
+    "catagory" : "HemeOnc",
+    "name" : "Smoking cessation",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 148 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb101"),
+    "id" : 48,
+    "catagory" : "HemeOnc",
+    "name" : "Screening for breast cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 149 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb102"),
+    "id" : 49,
+    "catagory" : "HemeOnc",
+    "name" : "Screening for prostate cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 150 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb103"),
+    "id" : 50,
+    "catagory" : "HemeOnc",
+    "name" : "Colon polyposis syndrome",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 151 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb104"),
+    "id" : 51,
+    "catagory" : "HemeOnc",
+    "name" : "Screening for colorectal cancer (not polyposis syndromes)",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 152 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb105"),
+    "id" : 52,
+    "catagory" : "HemeOnc",
+    "name" : "Screening for cervical cancer and other Pap smear",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 153 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb106"),
+    "id" : 53,
+    "catagory" : "HemeOnc",
+    "name" : "Screening for other cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 154 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb107"),
+    "id" : 54,
+    "catagory" : "HemeOnc",
+    "name" : "Diet and cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 155 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb108"),
+    "id" : 55,
+    "catagory" : "HemeOnc",
+    "name" : "Management of malignant pain",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 156 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb109"),
+    "id" : 56,
+    "catagory" : "HemeOnc",
+    "name" : "Cardiac tumors",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 157 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb10a"),
+    "id" : 57,
+    "catagory" : "HemeOnc",
+    "name" : "Bone tumors",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 158 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb10b"),
+    "id" : 58,
+    "catagory" : "HemeOnc",
+    "name" : "Soft tissue cancer",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 159 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb10c"),
+    "id" : 59,
+    "catagory" : "HemeOnc",
+    "name" : "Assorted endocrine tumors and endocrine manifestations of tumors",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 160 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb10d"),
+    "id" : 60,
+    "catagory" : "HemeOnc",
+    "name" : "Insulinoma",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 161 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb10e"),
+    "id" : 61,
+    "catagory" : "HemeOnc",
+    "name" : "VIP-secreting tumors (dassify a;> GC.lstroenteroiogy) ~",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 162 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb10f"),
+    "id" : 62,
+    "catagory" : "HemeOnc",
+    "name" : "Zollinger Ellison syndrome (gastrinoma/ classify as Gastroenterology)",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 163 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb110"),
+    "id" : 63,
+    "catagory" : "HemeOnc",
+    "name" : "Glucagon-Secreting tumors .",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 164 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb111"),
+    "id" : 64,
+    "catagory" : "HemeOnc",
+    "name" : "Carcinoid syndrome",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 165 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb112"),
+    "id" : 65,
+    "catagory" : "HemeOnc",
+    "name" : "Malignancy-associated hypercalcemia",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 166 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb113"),
+    "id" : 66,
+    "catagory" : "HemeOnc",
+    "name" : "Ectopic ACTH from tumor",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 167 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb114"),
+    "id" : 67,
+    "catagory" : "HemeOnc",
+    "name" : "SIADH from tumor",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 168 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb117"),
+    "id" : 70,
+    "catagory" : "HemeOnc",
+    "name" : "Oncologic emergencies",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 169 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb115"),
+    "id" : 68,
+    "catagory" : "HemeOnc",
+    "name" : "Multiple endocrine neoplasia",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 170 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb119"),
+    "id" : 72,
+    "catagory" : "HemeOnc",
+    "name" : "Fever and neutropenia",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 171 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb11c"),
+    "id" : 75,
+    "catagory" : "HemeOnc",
+    "name" : "Cardiac tamponade from neoplastic pericarditis",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 172 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb11e"),
+    "id" : 77,
+    "catagory" : "HemeOnc",
+    "name" : "Untoward effects of cancer chemotherapy",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 173 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb118"),
+    "id" : 71,
+    "catagory" : "HemeOnc",
+    "name" : "Superior vena cava syndrome",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 174 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb11d"),
+    "id" : 76,
+    "catagory" : "HemeOnc",
+    "name" : "Tumor lysis syndrome",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 175 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb116"),
+    "id" : 69,
+    "catagory" : "HemeOnc",
+    "name" : "Oncologic complications of HIV infection",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 176 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb11b"),
+    "id" : 74,
+    "catagory" : "HemeOnc",
+    "name" : "Spinal cord tumors and compression",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 177 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb11a"),
+    "id" : 73,
+    "catagory" : "HemeOnc",
+    "name" : "Brain tumors",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
+}
+
+/* 178 */
+{
+    "_id" : ObjectId("59ce7f4f3409a182f77fb11f"),
+    "id" : 78,
+    "catagory" : "HemeOnc",
+    "name" : "Carcinoma of unknown primary",
+    "selected" : false,
+    "preceptor" : "",
+    "date" : "",
+    "whatWasLearned" : "",
+    "hidden" : false,
+    "_creator" : ObjectId("59ce7f4f3409a182f77fb0d1"),
+    "__v" : 0
 }

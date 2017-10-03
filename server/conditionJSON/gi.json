@@ -1,0 +1,938 @@
+[
+ {
+   "catagory": "GI",
+   "name": "Esophageal disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Gastroesophageal reflux !@#",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Barrett's esophagus",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Esophageal carcinoma",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Esophageal motility disorders",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Achalasia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Hypercontractile Esophagus (Jackhammer)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Absent Peristalsis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Distal Esophageal Spasm",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Medication-induced esophageal disorder",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Esophageal diverticula",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Esophageal strictures or webs",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Gastroesophageal varices",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Infectious esophagitis (Candida, HSV, CMV)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": " Mallory-Weiss syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": " Eosinophilic esophagitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Stomach Of duodenum",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Helicobacter pylori2. Peptic ulcer disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Gastritis and gastropathy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Stomach cancer",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Non-ulcer dyspepsia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "MALT",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Gastroparesis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Small intestinal disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Celiac disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Bacterial overgrowth",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Short bowel syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Whipple's disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Mesenteric ischemia",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Crohn's disease and Crohn's colitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Gastroenteritis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Colonic and anorectal disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Colorectal cancer",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Colon polyposis syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Hereditary nonpolyposis colorectal cancer",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Familial adenomatous polyposis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Attenuated familial adenomatous polyposis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Screening for colorectal cancer",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Diverticular disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Ulcerative colitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Crohn’s colitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Irritable bowel syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Hemorrhoids and fissures",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "C. difficile colitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": " Acute appendicitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": " Radiation colitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": " Microscopic colitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": " Ischemic colitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": " Fecal incontinence",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": " Diarrhea",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": " Constipation",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Pancreatic disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Acute pancreatitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Chronic pancreatitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Pancreatic carcinoma",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "IPMN",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Infections of the pancreas, pancreatic abscess",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Endocrine tumors of the pancreas",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Zollinger-Ellison syndrome (gastrinoma)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Glucagon-secreting tumor511i2006",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "VIP-secretjng tumor",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Pancreatic cysts",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Pancreatic mass",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Autoimmune pancreatitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Biliary tract disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Cholelithiasis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Cholecystitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Choledocholithiasis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Cholangitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Sclerosing cholangitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Biliary cysts",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Liver disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Viral hepatitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Hepatitis A",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Hepatitis B",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Hepatitis C",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Other viral hepatitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Liver abscess",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Cirrhosis and portal hypertension",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Ascites",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Hepatic encephalopathy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Hepatorenal syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Spontaneous bacterial peritonitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Vericeal bleeding",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Hepatopulmonary syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Drug-induced liver disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Cholestasis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Hemochromatosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Fatty liver and nonalcoholic steatohepatits",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Alcoholic hepatitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Fulminant liver failure",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Acetaminophen and fulminant hepatic failure",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": " Hepatocellular carcinoma",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": " Autoimmune hepatitis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": " Primary biliary cirrhosis",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": " Wilson's disease",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": " Hepatic masses",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": " Liver disease in pregnancy",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": " Hepatic-vein thrombosis (Budd-Chiari. syndrome)",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": " Gilbert's syndrome",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Gastrointestinal hemorrhage",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Undiagnosed upper gastrointestinal hemorrhage.",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Undiagnosed lower gastrointestinal hemorrhage.",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ },
+ {
+   "catagory": "GI",
+   "name": "Gastrointestinal complications of HIV infection",
+   "selected": false,
+   "preceptor": "",
+   "date": "",
+   "whatWasLearned": "",
+   "hidden": false
+ }
+]

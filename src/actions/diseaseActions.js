@@ -39,6 +39,17 @@ export function updateDisease(data) {
   }
 }
 
+export function tempDisease() {
+  console.log("tempDisease pressed");
+    fetch(`${LOCAL_HOST}/api/diseases/tempPopulate`, {
+      method: 'get',
+      headers: setHeaders({
+        "Content-type": "application/json"
+      })
+    })
+
+}
+
 export function fetchDiseases() {
   return dispatch => {
     fetch(`${LOCAL_HOST}/api/diseases`, {

@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
-import './App.css';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
-
-import { fetchDiseasesWithCondition, updateDisease, saveDisease } from './actions/diseaseActions';
-
-//const myData = require('./conditionJSON/HemeOnc.json');
-
+import { fetchDiseasesWithCondition, updateDisease, saveDisease, tempDisease } from './actions/diseaseActions';
+import ConditionListLearningForm from './ConditionListLearningForm';
+import ConditionListLearningDisplay from './ConditionListLearningDisplay';
 
 const DeleteButton = styled.button`
   border-radius: 3px;
@@ -35,11 +32,17 @@ const ListTitle = styled.h1`
 
 const ListItem = styled.p`
   cursor: pointer;
-
   font-family: Georgia;
   font-size: 20px;
-  padding-bottom: 2.5px;
+  margin-bottom: 1px;
   font-weight: ${props => props.withData ? 'bold' : 'normal'};
+`;
+
+// Color coded user created content
+// Green if you create the dx
+// Blue if you did not create dx
+const ListItemColor = ListItem.extend`
+	color: ${props => props.didCreate ? 'green' : 'blue'};
 `;
 
 const ListWrapper = styled.section`
@@ -69,7 +72,6 @@ const SelectedInput = styled.input`
   font-family: Georgia;
   font-size: 18px;
   border: 2px solid Gainsboro;
-
 `;
 
 const SelectedTextArea = styled.textarea`
@@ -81,7 +83,10 @@ const SelectedTextArea = styled.textarea`
   font-family: Georgia;
   font-size: 18px;
   resize: both;
+`;
 
+const ConditionListLearningFormStyle = styled.section`
+  display: block;
 `;
 
 class App extends Component {
@@ -89,35 +94,56 @@ class App extends Component {
     diseaseData: this.props.diseases,//localStorage.myData ? JSON.parse(localStorage.myData) : myData,
     addConditionInputBox: '',
     searchInputBox: '',
-    specialty: 'HemeOnc',
+    specialty: this.props.pageTitle,
   }
 
   // Runs at initial loading of patient info. uses action to call server for data
   componentDidMount () {
     this.props.fetchDiseasesWithCondition(this.state.specialty);
+    console.log("This did run");
+    console.log(this.props.pageTitle);
   }
 
-  headerTapped = (element) => {
-    element.selected ? element.selected = false : element.selected = true;
+  headerTapped = (element) => { //Toggle isSelected
+    var foundIndex = element.selected.findIndex(x => x.user == this.props.userID);
+    // If user was found in the index, then update, otherwise add user
+    if (foundIndex >= 0) {
+      if (element.selected[foundIndex].isSelected) {
+        element.selected[foundIndex] = { user: this.props.userID, isSelected: false }
+      } else {
+        element.selected[foundIndex] = { user: this.props.userID, isSelected: true }
+      }
+    } else {
+      element.selected.push({ user: this.props.userID, isSelected: true });
+    }
     this.props.updateDisease(element);
+  }
+
+  isSelected = (element) => { //Returns is item is selected by user.
+    var foundIndex = element.selected.findIndex(x => x.user == this.props.userID);
+    if (foundIndex >= 0) {
+      return element.selected[foundIndex].isSelected;
+    } else {
+      return false;
+    }
   }
 
   handleChangePreceptor = (element, e) => {
-    element.preceptor = e.target.value;
-    this.props.updateDisease(element);
+    // element.preceptor = e.target.value;
+    // this.props.updateDisease(element);
   };
 
   handleChangeDate = (element, e) => {
-    element.date = e.target.value;
-    this.props.updateDisease(element);
+    // element.date = e.target.value;
+    // this.props.updateDisease(element);
   };
 
   handleChangeWhatWasLearned = (element, e) => {
-    element.whatWasLearned = e.target.value;
-    this.props.updateDisease(element);
+    // element.whatWasLearned = e.target.value;
+    // this.props.updateDisease(element);
   }
 
-  deleteDisease = (element, e) => {
+  deleteDisease = (element) => {
     //eslint-disable-next-line
     if (confirm(`Are you sure you want to delete "${element.name}"`) == true) {
       element.hidden = true;
@@ -125,27 +151,15 @@ class App extends Component {
     }
   }
 
-  handleChangeSearchBox = (element, e) => {
-    console.log(e.target.name);
-  };
-
   handleClickAddConditionBox = (e) => {
     if (this.state.addConditionInputBox === "") return;
-    const diseaseData = this.props.diseases;
-    const lastElementInArray = diseaseData[diseaseData.length - 1];
     var newDisease = {
-      id: lastElementInArray.id + 1,
-      Catagory: this.state.specialty,
+      catagory: this.state.specialty,
       name: this.state.addConditionInputBox,
-      preceptor: "",
-      date: "",
-      selected: true
+      hidden: false,
+      _creator: this.props.userID
     };
     this.props.saveDisease(newDisease);
-    // diseaseData.push(newDisease);
-    // this.setState({ diseaseData });
-    // localStorage.myData = JSON.stringify(this.state.diseaseData); //Using localStorage to persist data.
-    //
     this.setState({
       addConditionInputBox: ""
     });
@@ -163,58 +177,115 @@ class App extends Component {
     });
   };
 
+  handleAddPostPressed = (e) => {
+    console.log(`Add post pressed`);
+  }
+
+  addPostClicked = (element, preceptor, date, whatWasLearned) => {
+    var post = {
+      _creator: this.props.userID,
+      preceptor: preceptor,
+      date: date,
+      whatWasLearned: whatWasLearned,
+      postHidden: false
+    }
+    element.post.push(post);
+    this.props.updateDisease(element);
+  }
+
+  updatePostClicked = (element, postID, preceptor, date, whatWasLearned) => {
+    var foundIndex = element.post.findIndex(x => x._id === postID);
+    element.post[foundIndex].preceptor = preceptor;
+    element.post[foundIndex].date = date;
+    element.post[foundIndex].whatWasLearned = whatWasLearned;
+    this.props.updateDisease(element);
+  }
+
+  hasPosts = (element) => {
+    var foundArray = element.post.filter(x => x._creator === this.props.userID);
+    var foundIndex = foundArray.findIndex(x => x.postHidden !== true);
+    if (foundIndex >= 0) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  canDelete = (element) => {
+    var foundIndex = element.post.findIndex(x => x._creator !== this.props.userID);
+    if (foundIndex < 0 && element._creator === this.props.userID) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  deletePost = (element, postID) => {
+    var foundIndex = element.post.findIndex(x => x._id === postID);
+    console.log(foundIndex);
+    element.post[foundIndex].postHidden = true;
+    this.props.updateDisease(element);
+  }
+
   render() {
-    const inputData = (element) => (
-      <div>
-        <InputWrapper>
-          <SelectedLabel>Seen with </SelectedLabel>
-          <SelectedInput
-            name="preceptor"
-            id="preceptor"
-            defaultValue={element.preceptor ? element.preceptor : ""}
-            onChange={this.handleChangePreceptor.bind(this, element)}
-          />
-        <br />
-        <SelectedLabel> Date</SelectedLabel>
-          <SelectedInput
-            name={element.date}
-            id={element.date}
-            placeholder="mm/dd/yy"
-            defaultValue={element.date ? element.date : ""}
-            onChange={this.handleChangeDate.bind(this, element)}
-          />
-        <br />
-        <SelectedLabel>Learned</SelectedLabel>
-        <SelectedTextArea rows="6" cols="50"
-          name="whatWasLearned"
-          id="whatWasLearned"
-          defaultValue={element.whatWasLearned ? element.whatWasLearned : ""}
-          onChange={this.handleChangeWhatWasLearned.bind(this, element)}/>
-        <br />
-        <DeleteButton onClick={this.deleteDisease.bind(this, element)}>Delete</DeleteButton>
-      </InputWrapper>
-      </div>
-    );
-    var diseaseNames = this.props.diseases.length ? this.props.diseases.map((element) =>
-        <div key={element.id}>
-          <ListWrapper>
-          {element.hidden ? "" :
-            element.preceptor === "" ?
-              <ListItem onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem> :
-                <ListItem withData onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem> }
-          {element.selected && !element.hidden ? inputData(element) : "" }
-          </ListWrapper>
-        </div>
-      ) : <div></div>
+    var listItem = (element) => {
+      if (this.hasPosts(element)) {
+        if (element._creator === "59d1da65c81b6b06136536d6") {
+          return <ListItem withData onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem>
+        } else if (element._creator === this.props.userID) {
+          return <ListItemColor didCreate withData onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItemColor>
+        } else {
+          return <ListItemColor withData onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItemColor>
+        }
+      } else {
+        if (element._creator === "59d1da65c81b6b06136536d6") {
+          return <ListItem onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem>
+        } else if (element._creator === this.props.userID) {
+          return <ListItemColor didCreate onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItemColor>
+        } else {
+          return <ListItemColor onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItemColor>
+        }
+      }
+    }
+
+    var diseaseNames = this.props.diseases.length
+  ? this.props.diseases.map((element) => <div key={element._id}>
+    <ListWrapper>
+      {element.hidden ? "" : listItem(element)}
+      {this.hasPosts(element) && this.isSelected(element) && !element.hidden
+        ? element.post.filter(x => x._creator == this.props.userID).map((post) => post.postHidden
+          ? ""
+          : <ConditionListLearningFormStyle>
+            <ConditionListLearningDisplay
+              key={post._id}
+              preceptor={post.preceptor}
+              date={post.date}
+              whatWasLearned={post.whatWasLearned}
+              updatePostClicked={this.updatePostClicked}
+              deletePost={this.deletePost}
+              element={element}
+              postID={post._id}/>
+          </ConditionListLearningFormStyle>)
+        : ""}
+      {this.isSelected(element) && !element.hidden
+        ? <ConditionListLearningForm
+          addClicked={this.addPostClicked}
+          showDeleteButton={this.canDelete(element)}
+          deleteDisease={this.deleteDisease}
+          element={element}/>
+        : ""}
+    </ListWrapper>
+  </div>)
+  : <div></div>
 
     var searchNames = this.props.diseases.length ? this.props.diseases.filter(x => x.name.toLowerCase().includes(this.state.searchInputBox.toLowerCase())).map((element) =>
-        <div key={element.id}>
+        <div key={element._id}>
           <ListWrapper>
           {element.hidden ? "" :
-            element.preceptor === "" ?
+            element.post ?
               <ListItem onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem> :
                 <ListItem withData onClick={this.headerTapped.bind(this, element)}>{element.name}</ListItem> }
-          {element.selected && !element.hidden ? inputData(element) : "" }
+          {this.isSelected(element) && !element.hidden ? <ConditionListLearningForm addClicked={this.addPostClicked} element={element} /> : "" }
           </ListWrapper>
         </div>
     ) : <div></div>
@@ -244,12 +315,9 @@ class App extends Component {
     </div>
     )
 
-    //Add a "what was learned" section
-
     return (
       <div>
-        <br/>
-        <ListTitle>Heme-Onc</ListTitle>
+        <ListTitle>{this.state.specialty}</ListTitle>
         {searchBox()}
          {this.state.searchInputBox === '' ? diseaseNames : searchNames}
          <br/>
@@ -261,8 +329,10 @@ class App extends Component {
 
 function mapStateToProps(state) {
   return {
+    username: state.auth.user.username,
+    userID: state.auth.user.id,
     diseases: state.diseases
   };
 }
 
-export default connect(mapStateToProps, { fetchDiseasesWithCondition, updateDisease, saveDisease })(App);
+export default connect(mapStateToProps, { fetchDiseasesWithCondition, updateDisease, saveDisease, tempDisease })(App);
