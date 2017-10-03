@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { fetchDiseasesWithCondition, updateDisease, saveDisease, tempDisease } from './actions/diseaseActions';
 import ConditionListLearningForm from './ConditionListLearningForm';
 import ConditionListLearningDisplay from './ConditionListLearningDisplay';
+import lodashFindIndex from 'lodash.findindex';
 
 const DeleteButton = styled.button`
   border-radius: 3px;
@@ -105,7 +106,7 @@ class App extends Component {
   }
 
   headerTapped = (element) => { //Toggle isSelected
-    var foundIndex = element.selected.findIndex(x => x.user == this.props.userID);
+    var foundIndex = lodashFindIndex(element.selected, function(x) { return x.user == this.props.userID; }.bind(this) );
     // If user was found in the index, then update, otherwise add user
     if (foundIndex >= 0) {
       if (element.selected[foundIndex].isSelected) {
@@ -120,7 +121,7 @@ class App extends Component {
   }
 
   isSelected = (element) => { //Returns is item is selected by user.
-    var foundIndex = element.selected.findIndex(x => x.user == this.props.userID);
+    var foundIndex = lodashFindIndex(element.selected, function(x) { return x.user == this.props.userID;}.bind(this) );
     if (foundIndex >= 0) {
       return element.selected[foundIndex].isSelected;
     } else {
@@ -194,7 +195,7 @@ class App extends Component {
   }
 
   updatePostClicked = (element, postID, preceptor, date, whatWasLearned) => {
-    var foundIndex = element.post.findIndex(x => x._id === postID);
+    var foundIndex = lodashFindIndex(element.post, function(x) {return x._id === postID; }.bind(this) );
     element.post[foundIndex].preceptor = preceptor;
     element.post[foundIndex].date = date;
     element.post[foundIndex].whatWasLearned = whatWasLearned;
@@ -203,7 +204,7 @@ class App extends Component {
 
   hasPosts = (element) => {
     var foundArray = element.post.filter(x => x._creator === this.props.userID);
-    var foundIndex = foundArray.findIndex(x => x.postHidden !== true);
+    var foundIndex = lodashFindIndex(foundArray, function(x) {return x.postHidden !== true; }.bind(this));
     if (foundIndex >= 0) {
       return true;
     } else {
@@ -212,7 +213,7 @@ class App extends Component {
   }
 
   canDelete = (element) => {
-    var foundIndex = element.post.findIndex(x => x._creator !== this.props.userID);
+    var foundIndex = lodashFindIndex(element.post, function(x) { x._creator !== this.props.userID; }.bind(this));
     if (foundIndex < 0 && element._creator === this.props.userID) {
       return true;
     } else {
@@ -221,7 +222,7 @@ class App extends Component {
   }
 
   deletePost = (element, postID) => {
-    var foundIndex = element.post.findIndex(x => x._id === postID);
+    var foundIndex = lodashFindIndex(element.post, function(x) {return x._id === postID;}.bind(this) );
     console.log(foundIndex);
     element.post[foundIndex].postHidden = true;
     this.props.updateDisease(element);
