@@ -3,8 +3,12 @@ import styled from 'styled-components';
 
 const InputWrapper = styled.section`
   background: Cornsilk;
+  padding: 10px;
   border-radius: 3px;
-`;
+  font-size: 18px;
+  border: 5px solid white;
+  width: 100%;
+  `;
 
 
 const SelectedLabel = styled.label`
@@ -27,32 +31,29 @@ const SelectedInput = styled.input`
 `;
 
 const SelectedTextArea = styled.textarea`
-  color: black;
-  margin-left: 0.5em;
-  background: white;
-  border: none;
-  border-radius: 3px;
   font-family: Georgia;
   font-size: 18px;
-  resize: both;
+  border-radius: 3px;
+  border: 2px solid Gainsboro;
+  padding: 5px;
+  margin: 5px;
+  width: 98%;
 `;
 
 const AddButton = styled.button`
   border-radius: 3px;
-  padding: 0.25em 1em;
-  margin: 1em;
-  background: green;
+  margin: 5px;
+  background: MediumSeaGreen;
   color: white;
-  border: 2px solid gree;
+  border: 2px solid MediumSeaGreen;
 `;
 
 const DeleteButton = styled.button`
   border-radius: 3px;
-  padding: 0.25em 1em;
-  margin: 1em;
-  background: red;
+  margin: 0.1em;
+  background: IndianRed;
   color: white;
-  border: 2px solid red;
+  border: 2px solid IndianRed;
 `;
 
 class ConditionListLearningForm extends Component {
@@ -106,6 +107,7 @@ class ConditionListLearningForm extends Component {
           />
         <br />
         <SelectedLabel>Learning Points</SelectedLabel>
+        <br />
         <SelectedTextArea rows="6" cols="50"
           name="whatWasLearned"
           id="whatWasLearned"

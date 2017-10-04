@@ -64,7 +64,8 @@ const LearnedText = styled.pre`
   border-radius: 3px;
   padding: 5px;
   margin: 5px;
-`;
+  white-space: pre-wrap;
+ `;
 
 const DeleteButton = styled.button`
   border-radius: 3px;

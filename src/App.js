@@ -38,6 +38,12 @@ class App extends Component {
             <div className="menu">
               <ActiveLink activeOnlyWhenExact to="/hemeonc" label="Heme-Onc" />
               <ActiveLink activeOnlyWhenExact to="/derm" label="Derm" />
+              <ActiveLink activeOnlyWhenExact to="/cardiology" label="Cardiology" />
+              <ActiveLink activeOnlyWhenExact to="/endocrine" label="Endocrine" />
+              <ActiveLink activeOnlyWhenExact to="/gi" label="GI" />
+              <ActiveLink activeOnlyWhenExact to="/id" label="Infectious Disease" />
+              <ActiveLink activeOnlyWhenExact to="/nephro" label="Nephrology" />
+              <ActiveLink activeOnlyWhenExact to="/gim" label="GIM" />
             </div>
           </div>
         </div>
@@ -74,6 +80,12 @@ class App extends Component {
         <Route path="/hemeonc" render={()=> isAuthenticated ? <ConditionList pageTitle="HemeOnc"/> : <GreetingsNotLoggedIn />} />
         <Route path="/derm" render={()=> isAuthenticated ? <ConditionList pageTitle="Derm"/> : <GreetingsNotLoggedIn />} />
         <Route path="/cardiology" render={()=> isAuthenticated ? <ConditionList pageTitle="Cardiology"/> : <GreetingsNotLoggedIn />} />
+        <Route path="/endocrine" render={()=> isAuthenticated ? <ConditionList pageTitle="Endocrine"/> : <GreetingsNotLoggedIn />} />
+        <Route path="/gi" render={()=> isAuthenticated ? <ConditionList pageTitle="GI"/> : <GreetingsNotLoggedIn />} />
+        <Route path="/id" render={()=> isAuthenticated ? <ConditionList pageTitle="Infectious Disease"/> : <GreetingsNotLoggedIn />} />
+        <Route path="/nephro" render={()=> isAuthenticated ? <ConditionList pageTitle="Nephrology"/> : <GreetingsNotLoggedIn />} />
+        <Route path="/gim" render={()=> isAuthenticated ? <ConditionList pageTitle="GIM"/> : <GreetingsNotLoggedIn />} />
+
         <Route path="/dermTerm" component={requireAuth(DermTerm)} />
         <Route path="/logout" component={requireAuth(Logout)} />
 
